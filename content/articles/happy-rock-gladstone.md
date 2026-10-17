@@ -43,4 +43,6 @@ It's sometimes billed as an "Ambassador of Smiles," and honestly, the title fits
 
 Happy Rock is not a long stop, and it doesn't try to be. It's a pull-off on Highway 16: stretch your legs, use the visitor centre, eat a sandwich in the shadow of a 36-foot smile, and take the photograph that explains Manitoba road trips better than any brochure — big sky, flat gold fields, and a town so pleased to see you that it built the feeling out of fibreglass.
 
+And here's the thing about Gladstone's grin: it works. Drivers who had never planned to stop in Gladstone stop, because a waving rock is a hard invitation to turn down. Kids who will forget every museum on the trip remember the rock. The bingos and banquets of thirty years ago are still paying that off, one pulled-over car at a time — which is more than most tourism strategies twice the budget can say.
+
 Wave back as you leave. Everybody does. That's the whole point of him.
