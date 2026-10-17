@@ -11,6 +11,17 @@ goodtoknow:
   - "Whiteshell is bear and black fly country in season. Pack water, tell someone where you're going, and give the wildlife its space."
   - "Falcon Lake itself is a full cottage-country stop on the Trans-Canada Highway, with beaches and services — the mystery is a short detour from a very normal lake day."
   - "Go for the hike and the story, not a sighting. Whatever happened in 1967 has not repeated itself on schedule since."
+short_answer: "Falcon Lake is a cottage-country stop in Whiteshell Provincial Park, Manitoba, and the reported encounter site is a flat granite outcrop in the woods north of the lake. On May 20, 1967, Stefan Michalak reported that a hot, disc-shaped craft blasted him with gas, leaving grid-pattern burns documented by doctors. People still hike to the rock for the story and the Shield-country scenery, while the case remains officially unexplained."
+faqs:
+  - q: "Where is the Falcon Lake encounter site?"
+    a: "The site is on a flat granite outcrop in the woods north of Falcon Lake in Whiteshell Provincial Park. It is a hike over granite, spruce, and bog, so the article recommends real footwear."
+  - q: "What did Stefan Michalak report in 1967?"
+    a: "Michalak reported two glowing, cigar-shaped objects, one of which settled nearby as a hot disc roughly ten metres across. He said an opening closed, the object shifted, and a grid-like vent blasted hot gas that knocked him down and set his shirt alight."
+  - q: "Why is the Falcon Lake case so famous?"
+    a: "Doctors documented raised burns in a grid pattern across Michalak's chest and abdomen, and the RCMP, Royal Canadian Air Force, and American investigators all looked into the report. The case remains unexplained."
+  - q: "Can visitors hike to the rock today?"
+    a: "Yes. The article describes the outcrop as still there in the Whiteshell woods, and Falcon Lake itself offers beaches and services for a normal cottage-country stop. Go for the hike and the story, not an expected sighting."
+last_verified: 2026-10-17
 ---
 
 Most UFO stories evaporate. Somebody sees a light, tells the neighbours, and within a year there's nothing left but the telling.

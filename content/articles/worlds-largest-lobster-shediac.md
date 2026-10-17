@@ -11,6 +11,17 @@ goodtoknow:
   - "A staircase climbs the pedestal, so you can stand right beside the big creature for the classic traveller's photo."
   - "Come in July and you can pair your visit with the Shediac Lobster Festival, when the whole town turns its celebration up to full boil."
   - "The statue is an outdoor stop, free to visit year-round — but a giant lobster photographs best on a bright Maritime summer day."
+short_answer: "Shediac's giant lobster is a reinforced-concrete statue in Rotary Park at the western entrance to Shediac, New Brunswick, just off Main Street (Highway 133). Commissioned by the Rotary Club in 1989 and completed in 1990 by artist Winston Bronnum, it is reported at about 11 metres long and around 90 tonnes including the pedestal. Travellers climb the pedestal staircase to stand beside the creature Shediac presents as the world's largest lobster."
+faqs:
+  - q: "Where does the giant lobster stand?"
+    a: "It stands in Rotary Park at the western entrance to Shediac, New Brunswick, just off Main Street (Highway 133). The article calls it an outdoor stop that is free to visit year-round."
+  - q: "How big is Shediac's lobster?"
+    a: "By the figures commonly reported in the article, the statue is about 11 metres long, 5 metres wide, and 5 metres tall. It weighs around 90 tonnes including the pedestal, with the lobster itself accounting for roughly 55 tonnes."
+  - q: "Can visitors climb up to the lobster?"
+    a: "Yes. A staircase winds up the pedestal so visitors can stand beside the giant lobster for the classic traveller's photo."
+  - q: "Why did Shediac build a giant lobster?"
+    a: "Lobster is central to this working Acadian fishing town on the Northumberland Strait: its economy, history, and menu. Shediac also proclaims itself the Lobster Capital of the World, and the monument gives that claim a highway-scale landmark."
+last_verified: 2026-10-17
 ---
 
 Every fishing town on the Atlantic coast will tell you, over a properly buttered roll, that *its* lobster is the best in the world. Shediac, New Brunswick simply decided to settle the argument in concrete.

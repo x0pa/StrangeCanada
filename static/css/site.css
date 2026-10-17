@@ -145,3 +145,12 @@ img{display:block;max-width:100%}
   .cards{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}
   .masthead-in{gap:.3rem}
 }
+
+.answer-block{margin:0 0 1.6rem;padding:1.1rem 1.3rem}
+.answer-block .answer-h{font-family:Rokkitt,Georgia,serif;font-size:1.15rem;color:#B5502F;margin:0 0 .4rem;text-transform:uppercase;letter-spacing:.04em}
+.answer-block p{margin:0;font-size:1.05rem;line-height:1.55}
+.faq-block{margin:2.2rem 0 0;padding-top:1.4rem;border-top:2px dashed #B5502F55}
+.faq-block h2{font-family:Rokkitt,Georgia,serif;color:#7A4A21;margin:0 0 1rem}
+.faq-item{margin:0 0 1.1rem}
+.faq-item h3{font-family:Rokkitt,Georgia,serif;font-size:1.12rem;margin:0 0 .3rem;color:#33302A}
+.faq-item p{margin:0;line-height:1.55}

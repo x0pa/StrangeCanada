@@ -11,6 +11,17 @@ goodtoknow:
   - "Glendon sits in east-central Alberta's giant food country: Mundare's giant sausage and Vegreville's giant pysanka are an easy loop away."
   - "The town celebrates with a pyrogy festival in the summer — come hungry, and pace yourself."
   - "The park is a community space. Sign the guestbook if it's out, and leave the giant fork to the professionals."
+short_answer: "The Giant Perogy is a golden, crimped-edge perogy speared on a fork, standing about 27 feet tall in a small park in Glendon, Alberta. It went up in 1991 as a monument to the area's Ukrainian-Canadian food heritage. The outdoor stop is free and viewable year-round, and travellers stop for the photo before looping to other prairie food giants nearby."
+faqs:
+  - q: "Where is the Giant Perogy?"
+    a: "It stands in a small park in Glendon, in east-central Alberta. The article describes it as an outdoor roadside stop that is free and viewable year-round."
+  - q: "How tall is the Giant Perogy, and when did it go up?"
+    a: "The statue stands about 27 feet tall and went up in 1991. It shows a golden, crimped-edge perogy speared on an enormous fork."
+  - q: "Why did Glendon choose a perogy?"
+    a: "Glendon is in Ukrainian-Canadian country, where perogies are tied to family recipes, church suppers, wedding dances, and generations of grandmothers' work. The statue honours that food heritage rather than just the dish."
+  - q: "What other stops pair well with Glendon?"
+    a: "The article points to Mundare's giant sausage and Vegreville's giant pysanka as an easy loop in the same corner of Alberta. Glendon also celebrates with a pyrogy festival in the summer."
+last_verified: 2026-10-17
 ---
 
 There are two ways to tell the world who you are. You can put it on the welcome sign — or you can build a perogy roughly the size of a school bus, spear it on a fork, and raise the whole thing over your town park.

@@ -11,6 +11,17 @@ goodtoknow:
   - "Cell service fades in the valleys. Download your maps before you go, and tell somebody your route."
   - "Many old buildings are private property or fragile heritage. Admire from the road, and leave everything exactly as you found it."
   - "Heritage sites and museums out here are seasonal — most open for the summer and lock up tight by fall."
+short_answer: "British Columbia's interior is scattered with mining towns left behind when silver, gold, and copper booms faded. This road trip links Sandon in the Slocan Valley, preserved Barkerville, and Phoenix above Grand Forks, where foundations and a cenotaph remain in the forest. Travellers stop to walk old main streets, read the plaques, and see the heritage still standing."
+faqs:
+  - q: "Which ghost towns does this route include?"
+    a: "The route focuses on Sandon in the Slocan Valley, Barkerville, and Phoenix high above Grand Forks. Sandon keeps heritage buildings and vintage Brill trolley buses, Barkerville is a living heritage site, and Phoenix is mostly foundations and a cenotaph."
+  - q: "Is Barkerville a true ghost town?"
+    a: "Not quite. Barkerville is a gold-rush town preserved as a living heritage site, with costumed interpreters and a working main street of 19th-century shops."
+  - q: "What is left of Phoenix?"
+    a: "Phoenix was dismantled after its mine closed following the First World War. What remains are foundations in the forest, a cenotaph, and a quiet townsite."
+  - q: "What should travellers know before visiting BC ghost towns?"
+    a: "Services can be scarce and cell service fades in the valleys, so fill the tank and download maps before leaving the highway. Many buildings are private or fragile heritage, so admire them from the road and leave everything as you found it. Heritage sites and museums are often seasonal."
+last_verified: 2026-10-17
 ---
 
 Drive the back roads of British Columbia's interior and you'll notice something: the map is full of towns that were supposed to be cities. A century and a bit ago, silver and gold pulled thousands of people into these valleys. Hotels went up in a season. Newspapers launched, opera houses opened, and every creek with a glint in it got a name and a post office.

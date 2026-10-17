@@ -11,6 +11,17 @@ goodtoknow:
   - "You really can add your own sign. Travellers bring boards from home or make one at the visitor information centre beside the forest."
   - "Leave yourself more time than you think. Everybody says twenty minutes; everybody stays an hour, reading hometowns."
   - "The town maintains the forest and adds new posts as it grows — your sign joins something cared for, not a free-for-all. Bring screws, not just nails, if the north wind has a say."
+short_answer: "The Sign Post Forest is an outdoor collection of signs along the Alaska Highway in Watson Lake, Yukon. It began in 1942 when homesick American soldier Carl K. Lindley added a Danville, Illinois board to a repaired signpost. Estimates now put the collection past 100,000 signs, and travellers stop to wander the posts and, if they wish, add a sign of their own."
+faqs:
+  - q: "Where is the Sign Post Forest?"
+    a: "It stands right on the Alaska Highway in Watson Lake, Yukon. The article describes it as a free outdoor site best taken slowly on foot."
+  - q: "How did the Sign Post Forest begin?"
+    a: "In 1942, injured American Army private Carl K. Lindley was given light duties repairing a directional signpost at Watson Lake. He added his own board for Danville, Illinois, marked 2,835 miles away."
+  - q: "How many signs are in the forest?"
+    a: "Estimates now put the collection past 100,000 signs, but there is no exact count because it grows every summer. The signs include town boards, street signs, licence plates, and hand-painted boards from around the world."
+  - q: "Can travellers add their own sign?"
+    a: "Yes. Visitors can bring a board from home or make one at the visitor information centre beside the forest, and the town maintains the posts as the collection grows."
+last_verified: 2026-10-17
 ---
 
 There is a forest in the Yukon that isn't made of trees.

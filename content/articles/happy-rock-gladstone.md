@@ -11,6 +11,17 @@ goodtoknow:
   - "It's an easy pull-off on a Winnipeg–Riding Mountain run, and the grounds make a natural picnic and stretch stop."
   - "Canada Post put Happy Rock on a stamp in 2010, in its Roadside Attractions series — check the post office brag wall."
   - "The statue is fibreglass and community-built pride. Admire, photograph, wave back — but no climbing on the rock."
+short_answer: "Happy Rock is a grinning fibreglass statue about 36 feet (11 metres) tall beside Highway 16, the Yellowhead, in Gladstone, Manitoba. It was unveiled on July 1, 1993, and it doubles as the town's visitor information centre. Travellers stop for a photo, a picnic, and a stretch under Gladstone's wordplay made monumental."
+faqs:
+  - q: "Where does Happy Rock stand?"
+    a: "Happy Rock stands on the northeast side of Highway 16, the Yellowhead, at Gladstone, Manitoba. It also serves as the town's visitor information centre."
+  - q: "How tall is Happy Rock, and when was it unveiled?"
+    a: "The statue is about 36 feet (11 metres) tall. It was officially unveiled on July 1, 1993, after the town raised nearly $92,000 for the project."
+  - q: "Why did Gladstone build a happy rock?"
+    a: "The statue grew out of Gladstone's nickname and the wordplay in its name: glad means happy, and a stone is a rock. Jerry Wickstead's cheerful rock won a 1984 logo contest, and the mascot was later built at full scale."
+  - q: "Can visitors climb on Happy Rock?"
+    a: "No. The article asks visitors to admire, photograph, and wave back, but not climb on the fibreglass statue. The grounds are set up as a picnic and stretch stop."
+last_verified: 2026-10-17
 ---
 
 Some town names are just names. And then there's Gladstone, Manitoba, which looked at its own name, did the wordplay out loud — *glad* means happy, a *stone* is a rock — and decided the joke deserved a monument.

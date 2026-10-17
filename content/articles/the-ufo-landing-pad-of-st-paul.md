@@ -11,6 +11,17 @@ goodtoknow:
   - "The tourist information centre beside the pad is seasonal, opening for the summer months — time a visit for summer if you want the full UFO exhibit."
   - "Check the backstop wall: the map of Canada set into it was built from stones sent by every province in the country."
   - "St. Paul sits in Alberta's northeast oddity country — Vegreville's giant pysanka is within an easy drive, for a two-stop strange day."
+short_answer: "St. Paul, Alberta built a 130-ton concrete UFO landing pad for Canada's Centennial in 1967, and the town bills it as the world's first. Defence Minister Paul Hellyer officially opened it on June 3, 1967, arriving by helicopter. Visitors can stand in the middle of the outdoor pad year-round and look for the backstop wall's map of Canada and sealed time capsule."
+faqs:
+  - q: "Where is the St. Paul UFO landing pad, and can visitors stand on it?"
+    a: "The pad is an outdoor landmark in St. Paul, Alberta, and visitors can walk out and stand in the middle of it year-round. The saucer-shaped tourist information centre beside it is seasonal and opens for the summer months."
+  - q: "When was the pad built, and who opened it?"
+    a: "St. Paul built the 130-ton concrete pad as a Centennial project in 1967. Canada's Minister of National Defence, Paul Hellyer, officially opened it on June 3, 1967, arriving by helicopter."
+  - q: "Has a UFO ever landed on the pad?"
+    a: "The article reports no confirmed landings. The most distinguished arrival it records is still Hellyer's helicopter on opening day."
+  - q: "What should visitors look for in the backstop wall?"
+    a: "The wall holds a map of Canada made from stones sent by every province, with provincial flags above it. A time capsule sealed inside is addressed to future Canadians and is to be opened on June 3, 2067."
+last_verified: 2026-10-17
 ---
 
 Most towns celebrating a 100th birthday build something sensible. A park. An arena. A nice library, with a plaque.

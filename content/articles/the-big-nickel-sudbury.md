@@ -11,6 +11,17 @@ goodtoknow:
   - "It makes an easy stop on a northern Ontario drive: Sudbury is also home to Science North, and the two pair naturally into a half-day."
   - "Go in the evening if you can. The low sun on all that stainless steel, over all that grey rock, is the postcard shot."
   - "Read both sides. The king is on one — the refinery on the other is the whole point of the place."
+short_answer: "The Big Nickel is a nine-metre (about 30-foot) stainless-steel replica of the 1951 Canadian five-cent piece at Dynamic Earth in Sudbury, Ontario. It was unveiled on July 22, 1964, after firefighter Ted Szilva pushed the mining monument through despite doubters and tight money. Visitors can walk around and under the outdoor coin for free and read both the king's portrait and the refinery side."
+faqs:
+  - q: "Where is the Big Nickel?"
+    a: "The Big Nickel stands outdoors at Dynamic Earth in Sudbury, Ontario. The coin itself is free to visit, separate from the science centre's exhibits."
+  - q: "How big is the Big Nickel, and which coin does it copy?"
+    a: "It is nine metres, about 30 feet, of stainless steel. The design copies the 1951 Canadian nickel, with King George VI on one side and a nickel refinery ringed by a wreath on the other."
+  - q: "Who built the Big Nickel?"
+    a: "Sudbury firefighter Ted Szilva pushed the idea after it won a local contest, working with local signmaker Bruno Cavallo. It was unveiled on July 22, 1964, before about 2,500 people."
+  - q: "Why does Sudbury honour nickel?"
+    a: "Sudbury sits in the Sudbury Basin, one of the richest nickel deposits ever found, and generations of mines and smelters paid for the town. The 1951 coin also marked two hundred years since the element nickel was first isolated and named."
+last_verified: 2026-10-17
 ---
 
 Most towns put their founder on a plaque. Sudbury put its paycheque on a hill.

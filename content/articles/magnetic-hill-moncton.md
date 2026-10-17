@@ -11,6 +11,17 @@ goodtoknow:
   - "The ritual is simple: stop at the marked spot, shift into neutral, foot off the brake, and watch. Keep an eye out for the car behind you doing the very same thing."
   - "A whole day out has grown up around the hill: the Magnetic Hill Zoo, the Magic Mountain water park, a winery, and the Wharf Village are all in the same neighbourhood."
   - "It's a seasonal stop, at its best in the summer and fall — fold it into a Maritime road trip and bring the sceptic in your family. Especially the sceptic."
+short_answer: "Magnetic Hill is a rural road at the northwestern edge of Moncton, New Brunswick, at the foot of Lutes Mountain. Drivers stop at the marked spot, shift into neutral, and appear to roll uphill because the surrounding slopes hide the true horizon and make a gentle descent read as a climb. It became a sensation in 1933 and remains a stop where visitors can test the illusion in their own car."
+faqs:
+  - q: "Where is Magnetic Hill?"
+    a: "Magnetic Hill is at the northwestern edge of Moncton, New Brunswick, at the foot of Lutes Mountain. Signs for the hill start well before drivers arrive."
+  - q: "How do visitors try the Magnetic Hill effect?"
+    a: "Stop at the marked spot, shift into neutral, take your foot off the brake, and watch the car appear to roll uphill. The article also notes that bicycles and poured water seem to move the wrong way."
+  - q: "Is Magnetic Hill really magnetic?"
+    a: "No. It is a gravity hill: surrounding slopes hide the true horizon, so a gentle descent is misread by the brain as a climb. Knowing the trick does not spoil the effect."
+  - q: "When did Magnetic Hill become famous?"
+    a: "Local farmers knew the road was peculiar in the 1800s, but it became a Maritime sensation after newspaper editor John Bruce and reporters drove it in August 1933. The article calls it a seasonal stop, best in summer and fall."
+last_verified: 2026-10-17
 ---
 
 There is a stretch of road outside Moncton where your car will break the oldest rule you know. Stop at the bottom of the hill. Shift into neutral. Take your foot off the brake.

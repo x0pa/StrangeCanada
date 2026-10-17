@@ -1,0 +1,24 @@
+# Strange Canada
+
+> Strange Canada is a roadside oddities atlas of Canada: giant statues, strange museums, UFO landing pads, ghost towns, and mysterious places you can actually drive to. Every attraction is a real place, written about affectionately and checked against primary sources; "world's largest" figures are the towns' own claims, reported as such. Facts on each article were last verified on the date shown in its schema.
+
+## Main sections
+
+- [Home](https://strangecanada.ca/): the latest field notes and featured stops
+- [Articles](https://strangecanada.ca/articles/): every field note, newest first
+- [Oddities Atlas](https://strangecanada.ca/atlas/): every strange stop on one map of Canada
+- [About](https://strangecanada.ca/about/): what Strange Canada is and how we check our facts
+- [Contact](https://strangecanada.ca/contact/): suggest a stop or report a change
+
+## Flagship field notes
+
+- [Mac the Moose](https://strangecanada.ca/articles/mac-the-moose/): Moose Jaw, Saskatchewan's 10-tonne moose (1984) and the Moose War with Norway's Storelgen
+- [The Giant Perogy of Glendon](https://strangecanada.ca/articles/the-giant-perogy-of-glendon/): a roughly 27-foot perogy on a fork in Glendon, Alberta (1991)
+- [The UFO Landing Pad of St. Paul](https://strangecanada.ca/articles/the-ufo-landing-pad-of-st-paul/): the landing pad St. Paul, Alberta built as a 1967 Centennial project
+- [Falcon Lake: Canada's Strangest UFO Story](https://strangecanada.ca/articles/falcon-lake-ufo/): Stefan Michalak's reported 1967 encounter in Manitoba's Whiteshell, told as a reported account
+- [The Big Nickel](https://strangecanada.ca/articles/the-big-nickel-sudbury/): Sudbury, Ontario's nine-metre stainless-steel nickel (1964) at Dynamic Earth
+- [The Sign Post Forest](https://strangecanada.ca/articles/sign-post-forest-watson-lake/): Watson Lake, Yukon's forest of signs, begun by a homesick soldier in 1942
+- [Magnetic Hill](https://strangecanada.ca/articles/magnetic-hill-moncton/): Moncton, New Brunswick's famous gravity illusion, rolling cars uphill since the 1930s
+- [The World's Largest Lobster](https://strangecanada.ca/articles/worlds-largest-lobster-shediac/): Shediac, New Brunswick's giant lobster (1990), the town's "world's largest" claim
+- [Happy Rock](https://strangecanada.ca/articles/happy-rock-gladstone/): Gladstone, Manitoba's grinning 36-foot rock (1993)
+- [Chasing Ghosts in BC's Interior](https://strangecanada.ca/articles/chasing-ghosts-in-bcs-interior/): the ghost towns of Sandon, Barkerville, and Phoenix, British Columbia

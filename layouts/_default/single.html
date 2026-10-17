@@ -19,6 +19,13 @@
       </div>
     </header>
 
+    {{ with .Params.short_answer }}
+    <div class="postcard answer-block">
+      <h2 class="answer-h">The Short Answer</h2>
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
+
     {{ with .Params.image }}
     <figure class="postcard post-hero">
       <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">
@@ -37,6 +44,20 @@
         {{ range . }}<li>{{ . }}</li>{{ end }}
       </ul>
     </aside>
+    {{ end }}
+
+    {{ with .Params.faqs }}
+    <section class="faq-block">
+      <h2>Common Questions</h2>
+      {{ range . }}
+      <div class="faq-item">
+        <h3>{{ .q }}</h3>
+        <p>{{ .a }}</p>
+      </div>
+      {{ end }}
+    </section>
+    {{ $items := slice }}{{ range . }}{{ $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+    <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify | safeJS }}</script>
     {{ end }}
 
     <section class="more-stops">

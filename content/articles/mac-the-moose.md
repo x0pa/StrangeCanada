@@ -11,6 +11,17 @@ goodtoknow:
   - "Look down before you leave: Mac's original antlers rest at the base of the statue, retired after the great rematch of 2019."
   - "The prairie is flat and the light is huge — golden hour makes for the best photos, with nothing around to block the sun."
   - "Make it a double bill with the Tunnels of Moose Jaw downtown: one giant moose, one underground legend, one very strange afternoon."
+short_answer: "Mac the Moose is a steel-and-concrete statue on the grounds of Moose Jaw's visitor centre, right off the Trans-Canada Highway in Saskatchewan. Built in 1984, Mac now stands 10.36 metres (34 feet) tall after receiving bigger antlers in 2019. People stop for the free, year-round photo and for Moose Jaw's friendly tallest-moose rivalry with Norway."
+faqs:
+  - q: "Where can visitors see Mac the Moose?"
+    a: "Mac stands on the grounds of Moose Jaw's visitor centre at Thatcher Drive and the Trans-Canada Highway. The article describes it as an outdoor stop that is free and viewable year-round."
+  - q: "How tall is Mac the Moose?"
+    a: "Mac now stands 10.36 metres, or 34 feet, tall. His earlier height was given as 9.8 metres before the 2019 antler replacement."
+  - q: "What was the Moose War with Norway?"
+    a: "Norway's Storelgen, unveiled in 2015, stood about 30 centimetres taller than Mac. After a truce in 2019, Moose Jaw fitted Mac with bigger, lighter antlers that October and reclaimed the height crown Moose Jaw claims for him."
+  - q: "What happened to Mac's original antlers?"
+    a: "They were retired to the base of the statue after the 2019 rematch. Visitors can still see them there as a reminder of the rivalry."
+last_verified: 2026-10-17
 ---
 
 Every city on the Trans-Canada Highway has the same problem: a river of travellers flowing past at highway speed, and about four seconds to convince any of them to stop.

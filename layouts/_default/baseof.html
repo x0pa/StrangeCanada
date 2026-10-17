@@ -17,10 +17,11 @@
 <meta name="twitter:title" content="{{ if .IsHome }}Strange Canada — Chasing Roadside Giants &amp; Hidden Wonders{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ .Description | default "Strange Canada is a roadside oddities atlas: giant statues, UFO landing pads, ghost towns, and the strange, wonderful places Canadians built out of pride." }}">
 <meta name="twitter:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ "images/hero-moose-map.webp" | absURL }}{{ end }}">
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Organization" "@id" "https://strangecanada.ca/#org" "name" "Strange Canada" "url" "https://strangecanada.ca/" "logo" ("android-chrome-512x512.png" | absURL) "description" .Site.Params.description | jsonify | safeJS }}</script>
 {{ if .IsHome }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" "Strange Canada" "url" "https://strangecanada.ca/" "description" .Site.Params.description | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" "Strange Canada" "url" "https://strangecanada.ca/" "description" .Site.Params.description "publisher" (dict "@id" "https://strangecanada.ca/#org") | jsonify | safeJS }}</script>
 {{ else if and .IsPage (eq .Section "articles") }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" .Description "image" (slice (.Params.image | absURL)) "datePublished" (.Date.Format "2006-01-02") "author" (dict "@type" "Organization" "name" "Strange Canada") "publisher" (dict "@type" "Organization" "name" "Strange Canada") "mainEntityOfPage" .Permalink | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" .Description "image" (slice (.Params.image | absURL)) "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Params.last_verified | default .Date) "author" (dict "@type" "Organization" "name" "Strange Canada") "publisher" (dict "@type" "Organization" "name" "Strange Canada") "mainEntityOfPage" .Permalink | jsonify | safeJS }}</script>
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" "https://strangecanada.ca/") (dict "@type" "ListItem" "position" 2 "name" "Articles" "item" "https://strangecanada.ca/articles/") (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) | jsonify | safeJS }}</script>
 {{ end }}
 {{ with .Site.Params.ga4 }}
@@ -33,9 +34,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#B5502F">
-<link rel="stylesheet" href="{{ "fonts/fonts-local.css" | relURL }}?v=18">
-<link rel="stylesheet" href="{{ "fonts/fonts-extra.css" | relURL }}?v=18">
-<link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v=18">
+<link rel="stylesheet" href="{{ "fonts/fonts-local.css" | relURL }}?v=19">
+<link rel="stylesheet" href="{{ "fonts/fonts-extra.css" | relURL }}?v=19">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v=19">
 </head>
 <body>
 
