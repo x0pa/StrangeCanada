@@ -15,23 +15,16 @@
   </section>
 
   <section class="cards" id="stories">
-    <article class="postcard story-card tilt-l">
-      <a class="card-link" href="{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}">
-        <img class="card-img" src="{{ "images/card-ghosts.webp" | relURL }}" alt="Illustration of a wooden ghost town main street in the BC mountains at sunset">
-        <h2><span class="t-rust">Chasing</span> Ghosts in BC&rsquo;s Interior</h2>
+    {{ $tilts := slice "tilt-l" "tilt-r" "tilt-l2" }}
+    {{ range $i, $p := first 3 ((where .Site.RegularPages "Section" "articles").ByDate.Reverse) }}
+    <article class="postcard story-card {{ index $tilts $i }}">
+      <a class="card-link" href="{{ $p.RelPermalink }}">
+        {{ with $p.Params.image }}<img class="card-img" src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}">{{ end }}
+        <h2>{{ $p.Title }}</h2>
       </a>
-      <p class="caption">Ghost towns, haunted highways, and the towns that refused to die.</p>
+      <p class="caption">{{ $p.Description }}</p>
     </article>
-    <article class="postcard story-card tilt-r">
-      <img class="card-img" src="{{ "images/card-largest.webp" | relURL }}" alt="Illustration of a giant Canada goose statue towering over a prairie town">
-      <h2 class="t-teal">The World&rsquo;s Largest&hellip; Something?</h2>
-      <p class="caption">Every small town claims a record. We drive out and measure them.</p>
-    </article>
-    <article class="postcard story-card tilt-l2">
-      <img class="card-img" src="{{ "images/card-miniature.webp" | relURL }}" alt="Illustration of a miniature village in a Manitoba wheat field">
-      <h2 class="t-green">Manitoba&rsquo;s Miniature Misfits</h2>
-      <p class="caption">Tiny churches, pocket museums, and the little oddballs of the prairies.</p>
-    </article>
+    {{ end }}
   </section>
 
   <section class="postcard note-card">

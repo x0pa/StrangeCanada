@@ -1,6 +1,6 @@
 ---
 title: "The Giant Perogy of Glendon"
-date: 2026-10-17
+date: 2026-10-17T07:05:00-05:00
 description: "In Glendon, Alberta, dinner is served twenty-seven feet in the air: the world's largest perogy, speared on a fork, in the heart of Ukrainian-Canadian country."
 kicker: "Field Notes — Alberta"
 image: "images/post-perogy-hero.webp"

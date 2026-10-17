@@ -1,6 +1,6 @@
 ---
 title: "Falcon Lake: Canada's Strangest UFO Story"
-date: 2026-10-17
+date: 2026-10-17T07:40:00-05:00
 description: "In 1967, a Winnipeg prospector walked out of the Whiteshell woods with grid-pattern burns and a story he never changed. The rock where it happened is still there — and you can hike to it."
 kicker: "Field Notes — Manitoba"
 image: "images/post-falcon-lake-ufo.webp"

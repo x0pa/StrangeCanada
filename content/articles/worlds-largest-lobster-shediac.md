@@ -1,6 +1,6 @@
 ---
 title: "The World's Largest Lobster"
-date: 2026-10-17
+date: 2026-10-17T07:20:00-05:00
 description: "Shediac, New Brunswick calls itself the Lobster Capital of the World — and guards the claim with a giant red lobster, some 11 metres long and around 90 tonnes, that you can climb right up and meet."
 kicker: "Field Notes — New Brunswick"
 image: "images/post-worlds-largest-lobster-shediac.webp"

@@ -1,6 +1,6 @@
 ---
 title: "The Big Nickel"
-date: 2026-10-17
+date: 2026-10-17T07:35:00-05:00
 description: "Sudbury, Ontario keeps its spare change on a hill: a nine-metre stainless-steel nickel, built by one stubborn firefighter, telling the story of a city mined from the rock."
 kicker: "Field Notes — Ontario"
 image: "images/post-the-big-nickel-sudbury.webp"

@@ -1,6 +1,6 @@
 ---
 title: "Happy Rock"
-date: 2026-10-17
+date: 2026-10-17T07:10:00-05:00
 description: "Gladstone, Manitoba took its own name as a dare — glad means happy, a stone is a rock — and built the grinning 36-foot proof beside the Yellowhead Highway."
 kicker: "Field Notes — Manitoba"
 image: "images/post-happy-rock-gladstone.webp"

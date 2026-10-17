@@ -1,6 +1,6 @@
 ---
 title: "The UFO Landing Pad a Town Built on Purpose"
-date: 2026-10-17
+date: 2026-10-17T07:25:00-05:00
 description: "In 1967, while other towns built arenas for Canada's Centennial, St. Paul, Alberta built a landing pad for flying saucers — and declared every visitor, from earth or otherwise, welcome."
 kicker: "Field Notes — Alberta"
 image: "images/post-the-ufo-landing-pad-of-st-paul.webp"

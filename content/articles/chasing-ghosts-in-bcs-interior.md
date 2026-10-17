@@ -1,6 +1,6 @@
 ---
 title: "Chasing Ghosts in BC's Interior"
-date: 2026-10-17
+date: 2026-10-17T07:00:00-05:00
 description: "Silver rushes, gold fevers, and the towns they left behind — a road trip through the beautiful, stubborn ghost towns of British Columbia's interior."
 kicker: "Field Notes — British Columbia"
 image: "images/card-ghosts.webp"

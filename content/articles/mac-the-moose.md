@@ -1,6 +1,6 @@
 ---
 title: "Mac the Moose"
-date: 2026-10-17
+date: 2026-10-17T07:45:00-05:00
 description: "Moose Jaw's Mac the Moose has watched over the Trans-Canada Highway since 1984 — and when Norway built a taller moose, Saskatchewan answered with bigger antlers."
 kicker: "Field Notes — Saskatchewan"
 image: "images/post-mac-the-moose.webp"
