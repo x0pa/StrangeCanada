@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="wrap page">
+  <article class="post">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a> <span aria-hidden="true">/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+    <header class="post-head">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="standfirst">{{ . }}</p>{{ end }}
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+{{ end }}

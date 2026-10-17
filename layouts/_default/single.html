@@ -1,0 +1,74 @@
+{{ define "main" }}
+<main class="wrap page">
+  <article class="post">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a> <span aria-hidden="true">/</span>
+      <a href="{{ "/articles/" | relURL }}">Articles</a> <span aria-hidden="true">/</span>
+      <span>{{ .Title }}</span>
+    </nav>
+
+    <header class="post-head">
+      <p class="kicker">{{ .Params.kicker | default "Field Notes" }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="standfirst">{{ .Description }}</p>
+      <div class="meta-row">
+        <span>{{ .Date.Format "January 2, 2006" }}</span>
+        <span aria-hidden="true">&middot;</span>
+        <span>{{ .ReadingTime }} min read</span>
+        <span class="stamp-standing">Still Standing</span>
+      </div>
+    </header>
+
+    {{ with .Params.image }}
+    <figure class="postcard post-hero">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">
+      {{ with $.Params.image_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{ end }}
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.goodtoknow }}
+    <aside class="postcard gtk">
+      <h2>Good to Know Before You Go</h2>
+      <ul>
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </aside>
+    {{ end }}
+
+    <section class="more-stops">
+      <h2>More Strange Stops</h2>
+      <div class="cards">
+        {{ $siblings := first 2 (where (where .Site.RegularPages "Section" "articles") "RelPermalink" "ne" .RelPermalink) }}
+        {{ range $siblings }}
+        {{ $p := . }}
+        <article class="postcard story-card tilt-r">
+          <a class="card-link" href="{{ .RelPermalink }}">
+            {{ with .Params.image }}<img class="card-img" src="{{ . | relURL }}" alt="{{ $p.Params.image_alt }}">{{ end }}
+            <h3>{{ .Title }}</h3>
+          </a>
+          <p class="caption">{{ .Description }}</p>
+        </article>
+        {{ end }}
+        {{ if lt (len $siblings) 1 }}
+        <article class="postcard story-card tilt-r">
+          <img class="card-img" src="{{ "images/card-largest.webp" | relURL }}" alt="Illustration of a giant Canada goose statue towering over a prairie town">
+          <h3 class="t-teal">The World&rsquo;s Largest&hellip; Something?</h3>
+          <p class="caption">Every small town claims a record. We drive out and measure them.</p>
+        </article>
+        {{ end }}
+        {{ if lt (len $siblings) 2 }}
+        <article class="postcard story-card tilt-l2">
+          <img class="card-img" src="{{ "images/card-miniature.webp" | relURL }}" alt="Illustration of a miniature village in a Manitoba wheat field">
+          <h3 class="t-green">Manitoba&rsquo;s Miniature Misfits</h3>
+          <p class="caption">Tiny churches, pocket museums, and the little oddballs of the prairies.</p>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+  </article>
+</main>
+{{ end }}

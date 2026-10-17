@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="wrap page">
+  <article class="post" style="text-align:center">
+    <header class="post-head">
+      <p class="kicker">Error 404 — Wrong Turn</p>
+      <h1>This Road Doesn&rsquo;t Go Anywhere</h1>
+      <p class="standfirst">Even the best road trips take a wrong turn. The page you&rsquo;re looking for isn&rsquo;t on this map — but plenty of strange stops are.</p>
+    </header>
+    <p><a class="btn" href="{{ "/" | relURL }}">Back to the Highway</a></p>
+    <p style="margin-top:1rem"><a href="{{ "/articles/" | relURL }}">Browse the articles</a> &middot; <a href="{{ "/atlas/" | relURL }}">Open the Atlas</a></p>
+  </article>
+</main>
+{{ end }}

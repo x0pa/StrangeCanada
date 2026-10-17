@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main class="wrap page">
+
+  <section class="postcard hero-card">
+    <div class="postmark" aria-hidden="true">Ottawa, ON<br><strong>1974</strong></div>
+    <div class="hero-text">
+      <p class="kicker">The Great Canadian Moose:</p>
+      <h1>A Roadside Myth &amp; Reality</h1>
+      <p class="lede">Explore the wackiest roadside attractions and strangest stories across the true North. (Est. 1974)</p>
+      <a class="btn" href="#stories">Explore Map</a>
+    </div>
+    <div class="hero-art">
+      <img src="{{ "images/hero-moose-map.webp" | relURL }}" alt="Illustrated moose standing on a vintage map of Canada">
+    </div>
+  </section>
+
+  <section class="cards" id="stories">
+    <article class="postcard story-card tilt-l">
+      <a class="card-link" href="{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}">
+        <img class="card-img" src="{{ "images/card-ghosts.webp" | relURL }}" alt="Illustration of a wooden ghost town main street in the BC mountains at sunset">
+        <h2><span class="t-rust">Chasing</span> Ghosts in BC&rsquo;s Interior</h2>
+      </a>
+      <p class="caption">Ghost towns, haunted highways, and the towns that refused to die.</p>
+    </article>
+    <article class="postcard story-card tilt-r">
+      <img class="card-img" src="{{ "images/card-largest.webp" | relURL }}" alt="Illustration of a giant Canada goose statue towering over a prairie town">
+      <h2 class="t-teal">The World&rsquo;s Largest&hellip; Something?</h2>
+      <p class="caption">Every small town claims a record. We drive out and measure them.</p>
+    </article>
+    <article class="postcard story-card tilt-l2">
+      <img class="card-img" src="{{ "images/card-miniature.webp" | relURL }}" alt="Illustration of a miniature village in a Manitoba wheat field">
+      <h2 class="t-green">Manitoba&rsquo;s Miniature Misfits</h2>
+      <p class="caption">Tiny churches, pocket museums, and the little oddballs of the prairies.</p>
+    </article>
+  </section>
+
+  <section class="postcard note-card">
+    <p class="note-hand">Postcard from the road &mdash;</p>
+    <p class="note-body">Dear friends: you simply won&rsquo;t believe what we found standing in a field off the highway. A moose of monstrous proportions, a perogy speared on a fork, a landing pad built for visitors who never landed. Travel isn&rsquo;t about the destination &mdash; it&rsquo;s about the sheer, delightful strangeness you meet along the way. <span class="note-sign">&mdash; Your intrepid explorers, S.C.</span></p>
+  </section>
+
+</main>
+{{ end }}
