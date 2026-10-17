@@ -2,7 +2,7 @@ baseURL = "https://strangecanada.ca/"
 relativeURLs = true
 languageCode = "en-ca"
 title = "Strange Canada"
-enableRobotsTXT = true
+enableRobotsTXT = false
 summaryLength = 40
 disableKinds = ["taxonomy", "term", "RSS"]
 

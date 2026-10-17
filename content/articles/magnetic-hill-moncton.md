@@ -1,7 +1,7 @@
 ---
 title: "Magnetic Hill: The Road That Rolls Uphill"
 date: 2026-10-17T07:15:00-05:00
-description: "In Moncton, New Brunswick, you stop the car, shift into neutral — and roll uphill. Magnetic Hill is Canada's beloved gravity illusion, and it has been happily fooling drivers since the 1930s."
+description: "In Moncton, New Brunswick, you stop the car, shift into neutral — and roll uphill. Magnetic Hill has been happily fooling drivers since the 1930s."
 kicker: "Field Notes — New Brunswick"
 image: "images/post-magnetic-hill-moncton.webp"
 image_alt: "Illustration of a station wagon rolling uphill on a rural road at Moncton's Magnetic Hill while a family watches in delight"

@@ -1,7 +1,7 @@
 ---
 title: "The Sign Post Forest"
 date: 2026-10-17T07:30:00-05:00
-description: "In Watson Lake, Yukon, a homesick soldier's single sign in 1942 grew into a forest of an estimated 100,000 signs from everywhere on Earth — and you can still add your own."
+description: "In Watson Lake, Yukon, a homesick soldier's single sign in 1942 grew into a forest of an estimated 100,000 signs from everywhere on Earth."
 kicker: "Field Notes — Yukon"
 image: "images/post-sign-post-forest-watson-lake.webp"
 image_alt: "Illustration of the Sign Post Forest in Watson Lake — tall posts covered in colourful blank sign boards along a forest path"

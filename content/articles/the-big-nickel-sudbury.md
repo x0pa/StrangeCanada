@@ -1,7 +1,7 @@
 ---
 title: "The Big Nickel"
 date: 2026-10-17T07:35:00-05:00
-description: "Sudbury, Ontario keeps its spare change on a hill: a nine-metre stainless-steel nickel, built by one stubborn firefighter, telling the story of a city mined from the rock."
+description: "Sudbury, Ontario keeps its spare change on a hill: a nine-metre stainless-steel nickel built by one stubborn firefighter above a city mined from rock."
 kicker: "Field Notes — Ontario"
 image: "images/post-the-big-nickel-sudbury.webp"
 image_alt: "Illustration of Sudbury's Big Nickel — a giant coin with a king's portrait standing on a rocky hill above a mining town"
