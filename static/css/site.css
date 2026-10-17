@@ -158,3 +158,7 @@ img{display:block;max-width:100%}
 .real-thing figcaption{font-family:'Caveat Brush',cursive;font-size:1.05rem;color:#5A4632;margin-top:.55rem;line-height:1.35}
 .real-thing figcaption .credit{font-family:'Nunito Sans',sans-serif;font-size:.78rem;color:#7A6A55;display:block;margin-top:.25rem}
 .real-thing figcaption .credit a{color:#B5502F}
+.made-with{font-size:.88rem;color:#7A6A55;margin:.15rem 0 0}
+.designed-by{font-size:.88rem;color:#7A6A55;margin:.15rem 0 0}
+.designed-by a{color:#B5502F;text-decoration:none}
+.designed-by a:hover{text-decoration:underline}
