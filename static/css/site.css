@@ -61,8 +61,6 @@ img{display:block;max-width:100%}
 .btn:hover{background:var(--rust-dark)}
 .hero-art{border:1px solid rgba(74,50,32,.3);border-radius:4px;overflow:hidden;align-self:center}
 .hero-art img{width:100%;height:auto}
-.postmark{position:absolute;top:14px;left:44%;width:104px;height:104px;border:2.5px solid rgba(74,50,32,.5);border-radius:50%;color:rgba(74,50,32,.65);font-family:"Rokkitt",serif;font-weight:600;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-11deg);line-height:1.5;pointer-events:none}
-.postmark strong{font-size:.95rem;letter-spacing:.2em}
 
 /* story cards */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.7rem;margin-top:2.6rem}
@@ -141,7 +139,6 @@ img{display:block;max-width:100%}
   .more-stops .cards{grid-template-columns:repeat(2,1fr);gap:14px;padding:0;margin-left:auto;margin-right:auto;width:100%}
   .more-stops .story-card{transform:none}
   .hero-card{grid-template-columns:1fr;padding:1.4rem 1.2rem}
-  .postmark{display:none}
   .cards{grid-template-columns:1fr;max-width:460px;margin-left:auto;margin-right:auto}
   .masthead-in{gap:.3rem}
 }
