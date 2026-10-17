@@ -8,4 +8,4 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
   description = "Strange Canada is a roadside oddities atlas: giant statues, strange museums, UFO landing pads, ghost towns, and the wonderful places Canadians built out of pride. Chasing roadside giants and hidden wonders, one tank of gas at a time."
-  ga4 = ""
+  ga4 = "G-11ZEVBD4TQ"
