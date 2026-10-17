@@ -22,6 +22,11 @@ faqs:
   - q: "Why does Sudbury honour nickel?"
     a: "Sudbury sits in the Sudbury Basin, one of the richest nickel deposits ever found, and generations of mines and smelters paid for the town. The 1951 coin also marked two hundred years since the element nickel was first isolated and named."
 last_verified: 2026-10-17
+real_photo: "images/real-the-big-nickel-sudbury.webp"
+real_photo_alt: "Photograph of the Big Nickel in Sudbury, Ontario, a giant stainless-steel replica of a 1951 Canadian five-cent coin against a cloudy sky"
+real_photo_credit: "Jason Zhang"
+real_photo_license: "CC BY-SA 4.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Big_Nickel_at_Sudbury.jpg"
 ---
 
 Most towns put their founder on a plaque. Sudbury put its paycheque on a hill.

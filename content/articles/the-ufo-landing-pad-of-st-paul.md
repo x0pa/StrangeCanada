@@ -22,6 +22,11 @@ faqs:
   - q: "What should visitors look for in the backstop wall?"
     a: "The wall holds a map of Canada made from stones sent by every province, with provincial flags above it. A time capsule sealed inside is addressed to future Canadians and is to be opened on June 3, 2067."
 last_verified: 2026-10-17
+real_photo: "images/real-the-ufo-landing-pad-of-st-paul.webp"
+real_photo_alt: "Photograph of the UFO landing pad in St. Paul, Alberta, a raised concrete platform with a staircase and flagpoles, seen from the plaza in front"
+real_photo_credit: "Jason F. Voll"
+real_photo_license: "CC BY-SA 3.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Saint_Paul_Alien_Landing_Pad_-_panoramio.jpg"
 ---
 
 Most towns celebrating a 100th birthday build something sensible. A park. An arena. A nice library, with a plaque.

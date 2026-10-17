@@ -22,6 +22,11 @@ faqs:
   - q: "Can visitors climb on Happy Rock?"
     a: "No. The article asks visitors to admire, photograph, and wave back, but not climb on the fibreglass statue. The grounds are set up as a picnic and stretch stop."
 last_verified: 2026-10-17
+real_photo: "images/real-happy-rock-gladstone.webp"
+real_photo_alt: "Photograph of Happy Rock in Gladstone, Manitoba, a grinning rock character in a top hat waving from the top of a large rock pedestal, with a visitor standing at its base"
+real_photo_credit: "Wtshymanski"
+real_photo_license: "CC BY-SA 3.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Happy_Rock_Gladstone_Manitoba.JPG"
 ---
 
 Some town names are just names. And then there's Gladstone, Manitoba, which looked at its own name, did the wordplay out loud — *glad* means happy, a *stone* is a rock — and decided the joke deserved a monument.

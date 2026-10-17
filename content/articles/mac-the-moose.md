@@ -22,6 +22,11 @@ faqs:
   - q: "What happened to Mac's original antlers?"
     a: "They were retired to the base of the statue after the 2019 rematch. Visitors can still see them there as a reminder of the rivalry."
 last_verified: 2026-10-17
+real_photo: "images/real-mac-the-moose.webp"
+real_photo_alt: "Photograph of Mac the Moose, the giant moose statue in Moose Jaw, Saskatchewan, standing on a rocky base inside a black iron fence under a blue sky"
+real_photo_credit: "Johnnyw3"
+real_photo_license: "CC BY-SA 4.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:MacTheMouseAugust2018.jpg"
 ---
 
 Every city on the Trans-Canada Highway has the same problem: a river of travellers flowing past at highway speed, and about four seconds to convince any of them to stop.

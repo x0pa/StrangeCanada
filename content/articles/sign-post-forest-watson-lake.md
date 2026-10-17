@@ -22,6 +22,11 @@ faqs:
   - q: "Can travellers add their own sign?"
     a: "Yes. Visitors can bring a board from home or make one at the visitor information centre beside the forest, and the town maintains the posts as the collection grows."
 last_verified: 2026-10-17
+real_photo: "images/real-sign-post-forest-watson-lake.webp"
+real_photo_alt: "Photograph of the Sign Post Forest in Watson Lake, Yukon, hundreds of town signs and licence plates nailed to wooden posts under a blue sky"
+real_photo_credit: "Adam Jones, Ph.D."
+real_photo_license: "CC BY-SA 3.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Signpost_Forest_-_Watson_Lake_-_Yukon_-_Canada_-_01.jpg"
 ---
 
 There is a forest in the Yukon that isn't made of trees.

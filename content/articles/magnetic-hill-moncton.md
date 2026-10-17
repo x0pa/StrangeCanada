@@ -22,6 +22,11 @@ faqs:
   - q: "When did Magnetic Hill become famous?"
     a: "Local farmers knew the road was peculiar in the 1800s, but it became a Maritime sensation after newspaper editor John Bruce and reporters drove it in August 1933. The article calls it a seasonal stop, best in summer and fall."
 last_verified: 2026-10-17
+real_photo: "images/real-magnetic-hill-moncton.webp"
+real_photo_alt: "Photograph of the Magnetic Hill site sign in Moncton, New Brunswick, giant blue letters and a red horseshoe magnet sculpture on a grassy hill"
+real_photo_credit: "Mhsheikholeslami"
+real_photo_license: "CC BY-SA 4.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Magnetic_Hill-Moncton-New_Brunswick-20170620.jpg"
 ---
 
 There is a stretch of road outside Moncton where your car will break the oldest rule you know. Stop at the bottom of the hill. Shift into neutral. Take your foot off the brake.

@@ -60,6 +60,17 @@
     <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items | jsonify | safeJS }}</script>
     {{ end }}
 
+    {{ with .Params.real_photo }}
+    <figure class="postcard real-thing">
+      <p class="real-tag">The Real Thing</p>
+      <img src="{{ . | relURL }}" alt="{{ $.Params.real_photo_alt }}" loading="lazy">
+      <figcaption>
+        {{ $.Params.real_photo_alt }}.
+        <span class="credit">Photo by {{ $.Params.real_photo_credit }}, <a href="{{ $.Params.real_photo_source }}" rel="noopener" target="_blank">via Wikimedia Commons</a>, {{ $.Params.real_photo_license }}.</span>
+      </figcaption>
+    </figure>
+    {{ end }}
+
     <section class="more-stops">
       <h2>More Strange Stops</h2>
       <div class="cards">

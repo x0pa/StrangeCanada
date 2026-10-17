@@ -154,3 +154,10 @@ img{display:block;max-width:100%}
 .faq-item{margin:0 0 1.1rem}
 .faq-item h3{font-family:Rokkitt,Georgia,serif;font-size:1.12rem;margin:0 0 .3rem;color:#33302A}
 .faq-item p{margin:0;line-height:1.55}
+
+.real-thing{margin:2.2rem 0 0;padding:1rem 1rem .8rem}
+.real-thing .real-tag{font-family:Rokkitt,Georgia,serif;text-transform:uppercase;letter-spacing:.06em;color:#B5502F;font-size:.95rem;margin:.1rem 0 .6rem}
+.real-thing img{width:100%;height:auto;display:block}
+.real-thing figcaption{font-family:'Caveat Brush',cursive;font-size:1.05rem;color:#5A4632;margin-top:.55rem;line-height:1.35}
+.real-thing figcaption .credit{font-family:'Nunito Sans',sans-serif;font-size:.78rem;color:#7A6A55;display:block;margin-top:.25rem}
+.real-thing figcaption .credit a{color:#B5502F}

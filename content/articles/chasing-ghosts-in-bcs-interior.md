@@ -22,6 +22,11 @@ faqs:
   - q: "What should travellers know before visiting BC ghost towns?"
     a: "Services can be scarce and cell service fades in the valleys, so fill the tank and download maps before leaving the highway. Many buildings are private or fragile heritage, so admire them from the road and leave everything as you found it. Heritage sites and museums are often seasonal."
 last_verified: 2026-10-17
+real_photo: "images/real-chasing-ghosts-in-bcs-interior.webp"
+real_photo_alt: "Photograph of Main Street in Barkerville Historic Town, British Columbia, a dirt main street lined with 1860s wooden buildings and boardwalks"
+real_photo_credit: "Bubblenymph"
+real_photo_license: "CC BY-SA 4.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:Main_Street_Barkerville,_facing_North.jpg"
 ---
 
 Drive the back roads of British Columbia's interior and you'll notice something: the map is full of towns that were supposed to be cities. A century and a bit ago, silver and gold pulled thousands of people into these valleys. Hotels went up in a season. Newspapers launched, opera houses opened, and every creek with a glint in it got a name and a post office.

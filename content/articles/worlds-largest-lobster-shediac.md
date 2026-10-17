@@ -22,6 +22,11 @@ faqs:
   - q: "Why did Shediac build a giant lobster?"
     a: "Lobster is central to this working Acadian fishing town on the Northumberland Strait: its economy, history, and menu. Shediac also proclaims itself the Lobster Capital of the World, and the monument gives that claim a highway-scale landmark."
 last_verified: 2026-10-17
+real_photo: "images/real-worlds-largest-lobster-shediac.webp"
+real_photo_alt: "Photograph of the World's Largest Lobster sculpture in Shediac, New Brunswick, a giant lobster with a fisherman figure on a rock base beside flagpoles"
+real_photo_credit: "Dennis G. Jarvis"
+real_photo_license: "CC BY-SA 2.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:New_Brunswick_DGJ_8491_-_The_World%27s_Largest_Lobster_(4942745809).jpg"
 ---
 
 Every fishing town on the Atlantic coast will tell you, over a properly buttered roll, that *its* lobster is the best in the world. Shediac, New Brunswick simply decided to settle the argument in concrete.

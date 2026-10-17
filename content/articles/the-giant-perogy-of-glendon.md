@@ -22,6 +22,11 @@ faqs:
   - q: "What other stops pair well with Glendon?"
     a: "The article points to Mundare's giant sausage and Vegreville's giant pysanka as an easy loop in the same corner of Alberta. Glendon also celebrates with a pyrogy festival in the summer."
 last_verified: 2026-10-17
+real_photo: "images/real-the-giant-perogy-of-glendon.webp"
+real_photo_alt: "Photograph of the Giant Perogy statue in Glendon, Alberta, a huge perogy speared on a giant fork above a concrete pedestal"
+real_photo_credit: "Paul Swabey"
+real_photo_license: "CC BY-SA 4.0"
+real_photo_source: "https://commons.wikimedia.org/wiki/File:World%27s_Largest_Perogy.jpg"
 ---
 
 There are two ways to tell the world who you are. You can put it on the welcome sign — or you can build a perogy roughly the size of a school bus, spear it on a fork, and raise the whole thing over your town park.
