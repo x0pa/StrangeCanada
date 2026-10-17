@@ -2,55 +2,40 @@
 <main class="wrap page">
   <article class="post">
     <nav class="crumbs" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a> <span aria-hidden="true">/</span>
-      <span>Atlas</span>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "crumbs_home" }}</a> <span aria-hidden="true">/</span>
+      <span>{{ i18n "nav_atlas" }}</span>
     </nav>
     <header class="post-head">
-      <p class="kicker">The Oddities Atlas</p>
-      <h1>Every Strange Stop, One Map</h1>
+      <p class="kicker">{{ i18n "atlas_kicker" }}</p>
+      <h1>{{ i18n "atlas_h1" }}</h1>
       <p class="standfirst">{{ .Description }}</p>
     </header>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <div id="sc-map" class="postcard" style="height:520px;max-height:70vh;z-index:0" role="application" aria-label="Map of Strange Canada attractions"></div>
+    <div id="sc-map" class="postcard" style="height:520px;max-height:70vh;z-index:0" role="application" aria-label="{{ i18n "atlas_map_aria" }}"></div>
     <div class="prose" style="margin-top:1.4rem">
-      <p>Every pin is a real place you can drive to and stand in front of. Tap a pin for the story — and where we&rsquo;ve already visited, the full field notes. The atlas grows with every article we publish.</p>
-      <h2>Every Stop on the Atlas</h2>
-      <ul>
-        <li><a href="{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}">Sandon — the silver boomtown</a> — British Columbia</li>
-        <li><a href="{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}">Barkerville Historic Town</a> — British Columbia</li>
-        <li><a href="{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}">Phoenix — the town that was dismantled</a> — British Columbia</li>
-        <li><a href="{{ "/articles/the-giant-perogy-of-glendon/" | relURL }}">The Giant Perogy</a> — Glendon, Alberta</li>
-        <li><a href="{{ "/articles/the-ufo-landing-pad-of-st-paul/" | relURL }}">The UFO Landing Pad</a> — St. Paul, Alberta</li>
-        <li><a href="{{ "/articles/mac-the-moose/" | relURL }}">Mac the Moose</a> — Moose Jaw, Saskatchewan</li>
-        <li><a href="{{ "/articles/happy-rock-gladstone/" | relURL }}">Happy Rock</a> — Gladstone, Manitoba</li>
-        <li><a href="{{ "/articles/falcon-lake-ufo/" | relURL }}">Falcon Lake UFO Site</a> — Whiteshell, Manitoba</li>
-        <li><a href="{{ "/articles/the-big-nickel-sudbury/" | relURL }}">The Big Nickel</a> — Sudbury, Ontario</li>
-        <li><a href="{{ "/articles/sign-post-forest-watson-lake/" | relURL }}">Sign Post Forest</a> — Watson Lake, Yukon</li>
-        <li><a href="{{ "/articles/magnetic-hill-moncton/" | relURL }}">Magnetic Hill</a> — Moncton, New Brunswick</li>
-        <li><a href="{{ "/articles/worlds-largest-lobster-shediac/" | relURL }}">The World&rsquo;s Largest Lobster (town&rsquo;s claim)</a> — Shediac, New Brunswick</li>
-      </ul>
+      {{ .Content }}
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
     (function(){
       var stops = [
-        {n:"Sandon — the silver boomtown", t:"British Columbia", lat:49.975, lng:-117.228, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}"},
-        {n:"Barkerville Historic Town", t:"British Columbia", lat:53.065, lng:-121.517, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}"},
-        {n:"Phoenix — the town that was dismantled", t:"British Columbia", lat:49.098, lng:-118.598, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relURL }}"},
-        {n:"The Giant Perogy", t:"Glendon, Alberta", lat:54.248, lng:-111.158, u:"{{ "/articles/the-giant-perogy-of-glendon/" | relURL }}"},
-        {n:"The UFO Landing Pad", t:"St. Paul, Alberta", lat:53.993, lng:-111.297, u:"{{ "/articles/the-ufo-landing-pad-of-st-paul/" | relURL }}"},
-        {n:"Mac the Moose", t:"Moose Jaw, Saskatchewan", lat:50.393, lng:-105.534, u:"{{ "/articles/mac-the-moose/" | relURL }}"},
-        {n:"Happy Rock", t:"Gladstone, Manitoba", lat:50.226, lng:-98.951, u:"{{ "/articles/happy-rock-gladstone/" | relURL }}"},
-        {n:"Falcon Lake UFO Site", t:"Whiteshell, Manitoba", lat:49.686, lng:-95.327, u:"{{ "/articles/falcon-lake-ufo/" | relURL }}"},
-        {n:"The Big Nickel", t:"Sudbury, Ontario", lat:46.473, lng:-81.033, u:"{{ "/articles/the-big-nickel-sudbury/" | relURL }}"},
-        {n:"Sign Post Forest", t:"Watson Lake, Yukon", lat:60.063, lng:-128.705, u:"{{ "/articles/sign-post-forest-watson-lake/" | relURL }}"},
-        {n:"Magnetic Hill", t:"Moncton, New Brunswick", lat:46.137, lng:-64.885, u:"{{ "/articles/magnetic-hill-moncton/" | relURL }}"},
-        {n:"The World's Largest Lobster (town's claim)", t:"Shediac, New Brunswick", lat:46.219, lng:-64.540, u:"{{ "/articles/worlds-largest-lobster-shediac/" | relURL }}"}
+        {n:"Sandon — the silver boomtown", t:"British Columbia", lat:49.975, lng:-117.228, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relLangURL }}"},
+        {n:"Barkerville Historic Town", t:"British Columbia", lat:53.065, lng:-121.517, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relLangURL }}"},
+        {n:"Phoenix — the town that was dismantled", t:"British Columbia", lat:49.098, lng:-118.598, u:"{{ "/articles/chasing-ghosts-in-bcs-interior/" | relLangURL }}"},
+        {n:"The Giant Perogy", t:"Glendon, Alberta", lat:54.248, lng:-111.158, u:"{{ "/articles/the-giant-perogy-of-glendon/" | relLangURL }}"},
+        {n:"The UFO Landing Pad", t:"St. Paul, Alberta", lat:53.993, lng:-111.297, u:"{{ "/articles/the-ufo-landing-pad-of-st-paul/" | relLangURL }}"},
+        {n:"Mac the Moose", t:"Moose Jaw, Saskatchewan", lat:50.393, lng:-105.534, u:"{{ "/articles/mac-the-moose/" | relLangURL }}"},
+        {n:"Happy Rock", t:"Gladstone, Manitoba", lat:50.226, lng:-98.951, u:"{{ "/articles/happy-rock-gladstone/" | relLangURL }}"},
+        {n:"Falcon Lake UFO Site", t:"Whiteshell, Manitoba", lat:49.686, lng:-95.327, u:"{{ "/articles/falcon-lake-ufo/" | relLangURL }}"},
+        {n:"The Big Nickel", t:"Sudbury, Ontario", lat:46.473, lng:-81.033, u:"{{ "/articles/the-big-nickel-sudbury/" | relLangURL }}"},
+        {n:"Sign Post Forest", t:"Watson Lake, Yukon", lat:60.063, lng:-128.705, u:"{{ "/articles/sign-post-forest-watson-lake/" | relLangURL }}"},
+        {n:"Magnetic Hill", t:"Moncton, New Brunswick", lat:46.137, lng:-64.885, u:"{{ "/articles/magnetic-hill-moncton/" | relLangURL }}"},
+        {n:"The World's Largest Lobster (town's claim)", t:"Shediac, New Brunswick", lat:46.219, lng:-64.540, u:"{{ "/articles/worlds-largest-lobster-shediac/" | relLangURL }}"}
       ];
       var map = L.map('sc-map').setView([54.5, -96], 4);
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18, attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
       stops.forEach(function(s){
-        var html = '<strong>' + s.n + '</strong><br>' + s.t + (s.u ? '<br><a href="' + s.u + '">Read the field notes</a>' : '');
+        var html = '<strong>' + s.n + '</strong><br>' + s.t + (s.u ? '<br><a href="' + s.u + '">{{ i18n "atlas_read_notes" }}</a>' : '');
         L.marker([s.lat, s.lng]).addTo(map).bindPopup(html);
       });
     })();

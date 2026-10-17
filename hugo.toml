@@ -1,10 +1,23 @@
 baseURL = "https://strangecanada.ca/"
 relativeURLs = true
-languageCode = "en-ca"
 title = "Strange Canada"
 enableRobotsTXT = false
 summaryLength = 40
 disableKinds = ["taxonomy", "term", "RSS"]
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-CA"
+    weight = 1
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-CA"
+    weight = 2
+    [languages.fr.params]
+      description = "Strange Canada est un atlas des curiosités routières du Canada : statues géantes, musées étranges, pistes d'atterrissage pour ovnis, villes fantômes et les endroits merveilleux que les Canadiens ont bâtis avec fierté. À la poursuite des géants routiers et des merveilles cachées, un plein d'essence à la fois."
 
 [params]
   description = "Strange Canada is a roadside oddities atlas: giant statues, strange museums, UFO landing pads, ghost towns, and the wonderful places Canadians built out of pride. Chasing roadside giants and hidden wonders, one tank of gas at a time."

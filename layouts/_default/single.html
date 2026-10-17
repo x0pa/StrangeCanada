@@ -2,26 +2,26 @@
 <main class="wrap page">
   <article class="post">
     <nav class="crumbs" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a> <span aria-hidden="true">/</span>
-      <a href="{{ "/articles/" | relURL }}">Articles</a> <span aria-hidden="true">/</span>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "crumbs_home" }}</a> <span aria-hidden="true">/</span>
+      <a href="{{ "/articles/" | relLangURL }}">{{ i18n "crumbs_articles" }}</a> <span aria-hidden="true">/</span>
       <span>{{ .Title }}</span>
     </nav>
 
     <header class="post-head">
-      <p class="kicker">{{ .Params.kicker | default "Field Notes" }}</p>
+      <p class="kicker">{{ .Params.kicker | default (i18n "field_notes") }}</p>
       <h1>{{ .Title }}</h1>
       <p class="standfirst">{{ .Description }}</p>
       <div class="meta-row">
-        <span>{{ .Date.Format "January 2, 2006" }}</span>
+        <span>{{ .Date | time.Format ":date_long" }}</span>
         <span aria-hidden="true">&middot;</span>
-        <span>{{ .ReadingTime }} min read</span>
-        <span class="stamp-standing">Still Standing</span>
+        <span>{{ .ReadingTime }} {{ i18n "min_read" }}</span>
+        <span class="stamp-standing">{{ i18n "still_standing" }}</span>
       </div>
     </header>
 
     {{ with .Params.short_answer }}
     <div class="postcard answer-block">
-      <h2 class="answer-h">The Short Answer</h2>
+      <h2 class="answer-h">{{ i18n "short_answer_h" }}</h2>
       <p>{{ . }}</p>
     </div>
     {{ end }}
@@ -39,7 +39,7 @@
 
     {{ with .Params.goodtoknow }}
     <aside class="postcard gtk">
-      <h2>Good to Know Before You Go</h2>
+      <h2>{{ i18n "gtk_h" }}</h2>
       <ul>
         {{ range . }}<li>{{ . }}</li>{{ end }}
       </ul>
@@ -48,7 +48,7 @@
 
     {{ with .Params.faqs }}
     <section class="faq-block">
-      <h2>Common Questions</h2>
+      <h2>{{ i18n "faq_h" }}</h2>
       {{ range . }}
       <div class="faq-item">
         <h3>{{ .q }}</h3>
@@ -62,17 +62,17 @@
 
     {{ with .Params.real_photo }}
     <figure class="postcard real-thing">
-      <p class="real-tag">The Real Thing</p>
+      <p class="real-tag">{{ i18n "real_thing" }}</p>
       <img src="{{ . | relURL }}" alt="{{ $.Params.real_photo_alt }}" loading="lazy">
       <figcaption>
         {{ $.Params.real_photo_alt }}.
-        <span class="credit">Photo by {{ $.Params.real_photo_credit }}, <a href="{{ $.Params.real_photo_source }}" rel="noopener" target="_blank">via Wikimedia Commons</a>, {{ $.Params.real_photo_license }}.</span>
+        <span class="credit">{{ i18n "photo_by" }} {{ $.Params.real_photo_credit }}, <a href="{{ $.Params.real_photo_source }}" rel="noopener" target="_blank">{{ i18n "via_commons" }}</a>, {{ $.Params.real_photo_license }}.</span>
       </figcaption>
     </figure>
     {{ end }}
 
     <section class="more-stops">
-      <h2>More Strange Stops</h2>
+      <h2>{{ i18n "more_stops" }}</h2>
       <div class="cards">
         {{ $siblings := first 2 (where (where .Site.RegularPages "Section" "articles") "RelPermalink" "ne" .RelPermalink) }}
         {{ range $siblings }}
@@ -88,15 +88,15 @@
         {{ if lt (len $siblings) 1 }}
         <article class="postcard story-card tilt-r">
           <img class="card-img" src="{{ "images/card-largest.webp" | relURL }}" alt="Illustration of a giant Canada goose statue towering over a prairie town">
-          <h3 class="t-teal">The World&rsquo;s Largest&hellip; Something?</h3>
-          <p class="caption">Every small town claims a record. We drive out and measure them.</p>
+          <h3 class="t-teal">{{ i18n "teaser1_h" }}</h3>
+          <p class="caption">{{ i18n "teaser1_p" }}</p>
         </article>
         {{ end }}
         {{ if lt (len $siblings) 2 }}
         <article class="postcard story-card tilt-l2">
           <img class="card-img" src="{{ "images/card-miniature.webp" | relURL }}" alt="Illustration of a miniature village in a Manitoba wheat field">
-          <h3 class="t-green">Manitoba&rsquo;s Miniature Misfits</h3>
-          <p class="caption">Tiny churches, pocket museums, and the little oddballs of the prairies.</p>
+          <h3 class="t-green">{{ i18n "teaser2_h" }}</h3>
+          <p class="caption">{{ i18n "teaser2_p" }}</p>
         </article>
         {{ end }}
       </div>

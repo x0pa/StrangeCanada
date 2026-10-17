@@ -2,12 +2,12 @@
 <main class="wrap page">
   <article class="post" style="text-align:center">
     <header class="post-head">
-      <p class="kicker">Error 404 — Wrong Turn</p>
-      <h1>This Road Doesn&rsquo;t Go Anywhere</h1>
-      <p class="standfirst">Even the best road trips take a wrong turn. The page you&rsquo;re looking for isn&rsquo;t on this map — but plenty of strange stops are.</p>
+      <p class="kicker">{{ i18n "e404_kicker" }}</p>
+      <h1>{{ i18n "e404_h1" }}</h1>
+      <p class="standfirst">{{ i18n "e404_standfirst" }}</p>
     </header>
-    <p><a class="btn" href="{{ "/" | relURL }}">Back to the Highway</a></p>
-    <p style="margin-top:1rem"><a href="{{ "/articles/" | relURL }}">Browse the articles</a> &middot; <a href="{{ "/atlas/" | relURL }}">Open the Atlas</a></p>
+    <p><a class="btn" href="{{ "/" | relLangURL }}">{{ i18n "e404_btn" }}</a></p>
+    <p style="margin-top:1rem"><a href="{{ "/articles/" | relLangURL }}">{{ i18n "e404_browse" }}</a> &middot; <a href="{{ "/atlas/" | relLangURL }}">{{ i18n "e404_atlas" }}</a></p>
   </article>
 </main>
 {{ end }}

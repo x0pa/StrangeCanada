@@ -3,13 +3,13 @@
 
   <section class="postcard hero-card">
     <div class="hero-text">
-      <p class="kicker">The Great Canadian Moose:</p>
-      <h1>A Roadside Myth &amp; Reality</h1>
-      <p class="lede">Explore the wackiest roadside attractions and strangest stories across the true North.</p>
-      <a class="btn" href="#stories">Explore Map</a>
+      <p class="kicker">{{ i18n "hero_kicker" }}</p>
+      <h1>{{ i18n "hero_h1" }}</h1>
+      <p class="lede">{{ i18n "hero_lede" }}</p>
+      <a class="btn" href="#stories">{{ i18n "hero_btn" }}</a>
     </div>
     <div class="hero-art">
-      <img src="{{ "images/hero-moose-map.webp" | relURL }}" alt="Illustrated moose standing on a vintage map of Canada">
+      <img src="{{ "images/hero-moose-map.webp" | relURL }}" alt="{{ i18n "hero_alt" }}">
     </div>
   </section>
 
@@ -27,8 +27,8 @@
   </section>
 
   <section class="postcard note-card">
-    <p class="note-hand">Postcard from the road &mdash;</p>
-    <p class="note-body">Dear friends: you simply won&rsquo;t believe what we found standing in a field off the highway. A moose of monstrous proportions, a perogy speared on a fork, a landing pad built for visitors who never landed. Travel isn&rsquo;t about the destination &mdash; it&rsquo;s about the sheer, delightful strangeness you meet along the way. <span class="note-sign">&mdash; Your intrepid explorers, S.C.</span></p>
+    <p class="note-hand">{{ i18n "note_hand" }}</p>
+    <p class="note-body">{{ i18n "note_body" }} <span class="note-sign">{{ i18n "note_sign" }}</span></p>
   </section>
 
 </main>

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html lang="{{ .Language.LanguageCode }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light only">
-<title>{{ if .IsHome }}Strange Canada — Chasing Roadside Giants &amp; Hidden Wonders{{ else }}{{ .Title }} — Strange Canada{{ end }}</title>
-<meta name="description" content="{{ .Description | default "Strange Canada is a roadside oddities atlas: giant statues, UFO landing pads, ghost towns, and the strange, wonderful places Canadians built out of pride." }}">
+<title>{{ if .IsHome }}{{ i18n "site_title_home" }}{{ else }}{{ .Title }} — Strange Canada{{ end }}</title>
+<meta name="description" content="{{ .Description | default (i18n "meta_desc_default") }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{ range .Translations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ end }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+{{ $enPage := . }}{{ range .Translations }}{{ if eq .Lang "en" }}{{ $enPage = . }}{{ end }}{{ end }}<link rel="alternate" hreflang="x-default" href="{{ $enPage.Permalink }}">
 <meta property="og:site_name" content="Strange Canada">
-<meta property="og:title" content="{{ if .IsHome }}Strange Canada — Chasing Roadside Giants &amp; Hidden Wonders{{ else }}{{ .Title }}{{ end }}">
-<meta property="og:description" content="{{ .Description | default "Strange Canada is a roadside oddities atlas: giant statues, UFO landing pads, ghost towns, and the strange, wonderful places Canadians built out of pride." }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ i18n "site_title_home" }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ .Description | default (i18n "meta_desc_default") }}">
 <meta property="og:type" content="{{ if and .IsPage (eq .Section "articles") }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ "images/hero-moose-map.webp" | absURL }}{{ end }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}Strange Canada — Chasing Roadside Giants &amp; Hidden Wonders{{ else }}{{ .Title }}{{ end }}">
-<meta name="twitter:description" content="{{ .Description | default "Strange Canada is a roadside oddities atlas: giant statues, UFO landing pads, ghost towns, and the strange, wonderful places Canadians built out of pride." }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "site_title_home" }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ .Description | default (i18n "meta_desc_default") }}">
 <meta name="twitter:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{ "images/hero-moose-map.webp" | absURL }}{{ end }}">
 <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Organization" "@id" "https://strangecanada.ca/#org" "name" "Strange Canada" "url" "https://strangecanada.ca/" "logo" ("android-chrome-512x512.png" | absURL) "description" .Site.Params.description | jsonify | safeJS }}</script>
 {{ if .IsHome }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" "Strange Canada" "url" "https://strangecanada.ca/" "description" .Site.Params.description "publisher" (dict "@id" "https://strangecanada.ca/#org") | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "WebSite" "name" "Strange Canada" "url" ("/" | absLangURL) "inLanguage" .Language.LanguageCode "description" .Site.Params.description "publisher" (dict "@id" "https://strangecanada.ca/#org") | jsonify | safeJS }}</script>
 {{ else if and .IsPage (eq .Section "articles") }}
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" .Description "image" (slice (.Params.image | absURL)) "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Params.last_verified | default .Date) "author" (dict "@type" "Organization" "name" "Strange Canada") "publisher" (dict "@type" "Organization" "name" "Strange Canada") "mainEntityOfPage" .Permalink | jsonify | safeJS }}</script>
-<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" "https://strangecanada.ca/") (dict "@type" "ListItem" "position" 2 "name" "Articles" "item" "https://strangecanada.ca/articles/") (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" .Description "inLanguage" .Language.LanguageCode "image" (slice (.Params.image | absURL)) "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Params.last_verified | default .Date) "author" (dict "@type" "Organization" "name" "Strange Canada") "publisher" (dict "@type" "Organization" "name" "Strange Canada") "mainEntityOfPage" .Permalink | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" (i18n "crumbs_home") "item" ("/" | absLangURL)) (dict "@type" "ListItem" "position" 2 "name" (i18n "crumbs_articles") "item" ("/articles/" | absLangURL)) (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) | jsonify | safeJS }}</script>
 {{ end }}
 {{ with .Site.Params.ga4 }}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
@@ -39,32 +42,33 @@
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v=22">
 </head>
 <body>
-
+{{ $langTarget := "" }}{{ $langLabel := "" }}{{ range .Translations }}{{ $langTarget = .RelPermalink }}{{ $langLabel = .Language.LanguageName }}{{ end }}{{ if not $langTarget }}{{ range .Site.Sites }}{{ if ne .Language.Lang $.Lang }}{{ $langTarget = .Home.RelPermalink }}{{ $langLabel = .Language.LanguageName }}{{ end }}{{ end }}{{ end }}
 <header class="masthead">
   <div class="wrap masthead-in">
     <div class="brand-row">
-      <a class="wordmark" href="{{ "/" | relURL }}">Strange Canada</a>
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menuPanel">
+      <a class="wordmark" href="{{ "/" | relLangURL }}">Strange Canada</a>
+      <button class="menu-btn" id="menuBtn" aria-label="{{ i18n "menu_open" }}" aria-expanded="false" aria-controls="menuPanel">
         <span></span><span></span><span></span>
       </button>
     </div>
-    <p class="masthead-tag">Chasing Roadside Giants &amp; Hidden Wonders</p>
+    <p class="masthead-tag">{{ i18n "tagline" }}</p>
   </div>
   <nav class="menu-panel" id="menuPanel" aria-label="Main" hidden>
     <ul class="wrap menu-list">
-      <li><a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>Home</a></li>
-      <li><a href="{{ "/articles/" | relURL }}">Articles</a></li>
-      <li><a href="{{ "/atlas/" | relURL }}">Atlas</a></li>
-      <li><a href="{{ "/about/" | relURL }}">About</a></li>
-      <li><a href="{{ "/contact/" | relURL }}">Contact</a></li>
+      <li><a href="{{ "/" | relLangURL }}"{{ if .IsHome }} class="active"{{ end }}>{{ i18n "nav_home" }}</a></li>
+      <li><a href="{{ "/articles/" | relLangURL }}">{{ i18n "nav_articles" }}</a></li>
+      <li><a href="{{ "/atlas/" | relLangURL }}">{{ i18n "nav_atlas" }}</a></li>
+      <li><a href="{{ "/about/" | relLangURL }}">{{ i18n "nav_about" }}</a></li>
+      <li><a href="{{ "/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a></li>
+      {{ if $langTarget }}<li><a href="{{ $langTarget }}" lang="{{ if eq .Lang "en" }}fr{{ else }}en{{ end }}">{{ $langLabel }}</a></li>{{ end }}
     </ul>
   </nav>
 </header>
 <script>
 (function(){
   var btn=document.getElementById('menuBtn'),panel=document.getElementById('menuPanel');
-  function close(){panel.hidden=true;btn.setAttribute('aria-expanded','false');btn.classList.remove('open');btn.setAttribute('aria-label','Open menu');}
-  btn.addEventListener('click',function(e){e.stopPropagation();var open=panel.hidden;panel.hidden=!open;btn.setAttribute('aria-expanded',String(open));btn.classList.toggle('open',open);btn.setAttribute('aria-label',open?'Close menu':'Open menu');});
+  function close(){panel.hidden=true;btn.setAttribute('aria-expanded','false');btn.classList.remove('open');btn.setAttribute('aria-label','{{ i18n "menu_open" }}');}
+  btn.addEventListener('click',function(e){e.stopPropagation();var open=panel.hidden;panel.hidden=!open;btn.setAttribute('aria-expanded',String(open));btn.classList.toggle('open',open);btn.setAttribute('aria-label',open?'{{ i18n "menu_close" }}':'{{ i18n "menu_open" }}');});
   document.addEventListener('click',function(e){if(!panel.hidden&&!panel.contains(e.target))close();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
 })();
@@ -75,15 +79,16 @@
 <footer class="site-footer">
   <div class="wrap">
     <nav class="footer-nav" aria-label="Footer">
-      <a href="{{ "/" | relURL }}">Home</a>
-      <a href="{{ "/articles/" | relURL }}">Articles</a>
-      <a href="{{ "/atlas/" | relURL }}">Atlas</a>
-      <a href="{{ "/about/" | relURL }}">About</a>
-      <a href="{{ "/contact/" | relURL }}">Contact</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "nav_home" }}</a>
+      <a href="{{ "/articles/" | relLangURL }}">{{ i18n "nav_articles" }}</a>
+      <a href="{{ "/atlas/" | relLangURL }}">{{ i18n "nav_atlas" }}</a>
+      <a href="{{ "/about/" | relLangURL }}">{{ i18n "nav_about" }}</a>
+      <a href="{{ "/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a>
+      {{ if $langTarget }}<a href="{{ $langTarget }}">{{ $langLabel }}</a>{{ end }}
     </nav>
-    <p class="copyright">&copy; Strange Canada. All Rights Reserved.</p>
-    <p class="made-with">Made with ❤️ in Winnipeg</p>
-    <p class="designed-by">Designed by <a href="https://darkhaus.studio" target="_blank" rel="noopener">Dark Haus Studio</a></p>
+    <p class="copyright">&copy; Strange Canada. {{ i18n "footer_rights" }}</p>
+    <p class="made-with">{{ i18n "footer_made" }}</p>
+    <p class="designed-by">{{ i18n "footer_designed" }} <a href="https://darkhaus.studio" target="_blank" rel="noopener">Dark Haus Studio</a></p>
   </div>
 </footer>
 

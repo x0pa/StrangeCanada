@@ -22,3 +22,12 @@
 - [The World's Largest Lobster](https://strangecanada.ca/articles/worlds-largest-lobster-shediac/): Shediac, New Brunswick's giant lobster (1990), the town's "world's largest" claim
 - [Happy Rock](https://strangecanada.ca/articles/happy-rock-gladstone/): Gladstone, Manitoba's grinning 36-foot rock (1993)
 - [Chasing Ghosts in BC's Interior](https://strangecanada.ca/articles/chasing-ghosts-in-bcs-interior/): the ghost towns of Sandon, Barkerville, and Phoenix, British Columbia
+
+## En français
+
+Strange Canada est aussi publié intégralement en français (pages réelles, pas de traduction automatique) :
+
+- [Accueil en français](https://strangecanada.ca/fr/) : les plus récentes notes de terrain
+- [Articles en français](https://strangecanada.ca/fr/articles/) : toutes les notes de terrain en français
+- [L'atlas des curiosités](https://strangecanada.ca/fr/atlas/) : tous les arrêts étranges sur une seule carte
+- [À propos](https://strangecanada.ca/fr/about/) : ce qu'est Strange Canada et comment nous vérifions nos faits
