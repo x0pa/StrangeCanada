@@ -23,7 +23,9 @@ The idea started with tourism. In the late 1970s, the province was encouraging s
 
 In 1984, the local Chamber of Commerce held a logo contest for a mascot. The winning entry, by Jerry Wickstead, was a cheerful black-and-white rock character: big smile, one hand waving, a towel over the other arm — a happy rock, ready for summer. A few years later the Chamber asked the obvious question: what if we built him?
 
-The town fundraised the way small towns build everything — bingos, banquet dinners, prize draws, and a community grant — and had the statue manufactured in fibreglass. On July 1, 1993, Canada Day, Happy Rock was officially unveiled, doubling as the town's visitor information centre. It has been waving at the highway ever since.
+The town fundraised the way small towns build everything — bingos, banquet dinners, prize draws, and a community grant — raising nearly $92,000. Winnipeg architects drew up the blueprints, and the F.A.S.T. Corporation of Sparta, Wisconsin, a specialist in giant fibreglass figures, built the rock in about four months. For all its bulk, the finished statue weighs only around 3,000 pounds — it's a hollow fibreglass heavyweight, a heavyweight's silhouette with a lightweight's secret.
+
+On July 1, 1993, Canada Day, Happy Rock was officially unveiled, doubling as the town's visitor information centre. It has been waving at the highway ever since.
 
 {{< illo src="images/illo-happy-rock-gladstone-a.webp" alt="Illustration of Happy Rock at golden hour with a family picnicking at its base and a 1970s station wagon parked nearby" caption="Golden hour at the rock: every road trip needs a grin break." >}}
 
