@@ -15,6 +15,7 @@ Every pin is a real place you can drive to and stand in front of. Tap a pin for 
 - [The UFO Landing Pad](/articles/the-ufo-landing-pad-of-st-paul/) — St. Paul, Alberta
 - [Mac the Moose](/articles/mac-the-moose/) — Moose Jaw, Saskatchewan
 - [Happy Rock](/articles/happy-rock-gladstone/) — Gladstone, Manitoba
+- [The World's Largest Curling Rock (town's claim)](/articles/worlds-largest-curling-rock-arborg/) — Arborg, Manitoba
 - [Falcon Lake UFO Site](/articles/falcon-lake-ufo/) — Whiteshell, Manitoba
 - [The Big Nickel](/articles/the-big-nickel-sudbury/) — Sudbury, Ontario
 - [Sign Post Forest](/articles/sign-post-forest-watson-lake/) — Watson Lake, Yukon

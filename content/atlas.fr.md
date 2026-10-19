@@ -15,6 +15,7 @@ Chaque épingle est un endroit réel où vous pouvez vous rendre en voiture et v
 - [La piste d'atterrissage pour ovnis](/fr/articles/the-ufo-landing-pad-of-st-paul/) — St. Paul, Alberta
 - [Mac l'orignal](/fr/articles/mac-the-moose/) — Moose Jaw, Saskatchewan
 - [Happy Rock](/fr/articles/happy-rock-gladstone/) — Gladstone, Manitoba
+- [La plus grande pierre de curling au monde (selon la ville)](/fr/articles/worlds-largest-curling-rock-arborg/) — Arborg, Manitoba
 - [Le site d'ovni du lac Falcon](/fr/articles/falcon-lake-ufo/) — Whiteshell, Manitoba
 - [Le Gros Nickel](/fr/articles/the-big-nickel-sudbury/) — Sudbury, Ontario
 - [La Forêt de panneaux](/fr/articles/sign-post-forest-watson-lake/) — Watson Lake, Yukon
