@@ -7,6 +7,7 @@
 <title>{{ if .IsHome }}{{ i18n "site_title_home" }}{{ else }}{{ .Title }} — Strange Canada{{ end }}</title>
 <meta name="description" content="{{ .Description | default (i18n "meta_desc_default") }}">
 <link rel="canonical" href="{{ .Permalink }}">
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ .Site.Title }}">
 {{ range .Translations }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
 {{ end }}<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
 {{ $enPage := . }}{{ range .Translations }}{{ if eq .Lang "en" }}{{ $enPage = . }}{{ end }}{{ end }}<link rel="alternate" hreflang="x-default" href="{{ $enPage.Permalink }}">

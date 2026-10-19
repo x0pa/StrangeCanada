@@ -3,7 +3,7 @@ relativeURLs = true
 title = "Strange Canada"
 enableRobotsTXT = false
 summaryLength = 40
-disableKinds = ["taxonomy", "term", "RSS"]
+disableKinds = ["taxonomy", "term"]
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
