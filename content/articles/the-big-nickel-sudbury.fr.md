@@ -66,3 +66,5 @@ Aujourd'hui, le Gros Nickel se dresse à Terre dynamique, le centre de sciences 
 Tenez-vous sous le Gros Nickel et levez les yeux, puis tournez-vous et regardez le roc. La blague frappe d'abord — une pièce de la taille d'un édifice! — mais le sens frappe ensuite, et il reste. C'est un monument aux mineurs bâti en forme de la chose qu'ils ont tirée de la terre, élevé par un pompier qui croyait qu'une ville ouvrière méritait un emblème aussi grand que son histoire.
 
 Soixante ans plus tard, c'est toujours le meilleur cinq cents au Canada.
+
+La pièce de Sudbury honore une grande histoire canadienne de fabrication qui a eu son monument. Une autre a été annulée en une seule journée. Notre site sœur Tales of Canada la raconte dans [Le jour où l'Arrow est mort](https://talesofcanada.ca/fr/stories/the-day-the-arrow-died/), l'histoire de l'Avro Arrow et du matin où le Canada a mis au rebut son avion le plus ambitieux.

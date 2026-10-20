@@ -60,3 +60,5 @@ Ce qui reste, ce sont des fondations dans la forêt, un cénotaphe, et un silenc
 ## Pourquoi nous les poursuivons
 
 Chaque ville fantôme de l'intérieur est une ville qui a tout misé sur un trou dans le sol — et qui a perdu, avec grâce, sur environ un siècle. Celles qui restent sont entretenues par de minuscules sociétés d'histoire, des irréductibles obstinés, et l'occasionnel passionné d'autobus. Le moins qu'un voyage sur la route puisse faire, c'est de se présenter, de lire les plaques, et de prendre le long chemin du retour.
+
+Ce n'est pas de lui-même que chaque endroit tranquille de l'intérieur s'est vidé. Pendant la Seconde Guerre mondiale, des villages entiers de la Slocan se sont remplis de Canadiens déracinés de la côte par leur propre gouvernement, et notre site sœur Tales of Canada raconte cette histoire dans son récit du [déracinement et de l'internement des Canadiens d'origine japonaise](https://talesofcanada.ca/fr/stories/japanese-canadian-internment/).

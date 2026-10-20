@@ -15,6 +15,10 @@ La plupart de ces endroits ont été bâtis par de petites villes, pour de petit
 - **Des illustrations, pas des photos volées.** Nos illustrations sont dessinées pour ce site dans un style de carte postale ancienne. Nous ne prenons pas les photos de voyage des autres.
 - **Les heures ne sont jamais devinées.** Quand les détails de visite changent selon les saisons, nous le disons et nous vous dirigeons vers la ville ou l'attraction pour l'information la plus récente.
 
+## Notre site sœur
+
+Strange Canada catalogue les endroits étranges. Notre site sœur [Tales of Canada](https://talesofcanada.ca/fr/) raconte les histoires complètes derrière des endroits comme eux : de longs récits sourcés des événements, des catastrophes, des inventions et des vies qui ont façonné ce pays, chacun publié avec ses sources sur la page. Quand un de nos arrêts au bord de la route vous laisse sur votre faim, c'est là que l'histoire entière se trouve.
+
 ## Qui est derrière le site
 
 Strange Canada est documenté, écrit et publié depuis Winnipeg, au Manitoba, et fait partie de la famille de sites canadiens de Dark Haus Studio. Les voyages se planifient de la bonne façon : un plein d'essence, une carte papier en renfort, et une règle d'or — on s'arrête toujours, toujours, pour la chose géante.

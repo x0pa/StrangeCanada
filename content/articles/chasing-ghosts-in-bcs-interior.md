@@ -60,3 +60,5 @@ What's left is foundations in the forest, a cenotaph, and an eerie, beautiful qu
 ## Why We Chase Them
 
 Every ghost town in the interior is a town that bet everything on a hole in the ground — and lost, gracefully, over about a hundred years. The ones that remain are kept up by tiny historical societies, stubborn holdouts, and the occasional bus enthusiast. The least a road trip can do is show up, read the plaques, and take the long way home.
+
+Not every quiet place in the interior emptied on its own. During the Second World War, whole settlements in the Slocan filled with Canadians uprooted from the coast by their own government, and our sister site Tales of Canada tells that story in its account of [the uprooting and internment of Japanese Canadians](https://talesofcanada.ca/stories/japanese-canadian-internment/).

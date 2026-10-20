@@ -62,3 +62,5 @@ Happy Rock is not a long stop, and it doesn't try to be. It's a pull-off on High
 And here's the thing about Gladstone's grin: it works. Drivers who had never planned to stop in Gladstone stop, because a waving rock is a hard invitation to turn down. Kids who will forget every museum on the trip remember the rock. The bingos and banquets of thirty years ago are still paying that off, one pulled-over car at a time — which is more than most tourism strategies twice the budget can say.
 
 Wave back as you leave. Everybody does. That's the whole point of him.
+
+Gladstone's grin is one chapter in a province that has been arguing about its own story since before it existed. Our sister site Tales of Canada tells the founding chapter in full in [The Red River Resistance](https://talesofcanada.ca/stories/red-river-resistance/), the story of Louis Riel, the Métis, and the fight that made Manitoba a province.

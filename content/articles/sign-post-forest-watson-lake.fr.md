@@ -72,3 +72,5 @@ Il y a des monuments plus grandioses dans ce pays, de plus anciens, et certainem
 Tenez-vous au milieu de la Sign Post Forest au cœur d'une soirée d'été au Yukon, quand la lumière devient dorée et refuse tout simplement de finir, et lisez les panneaux. Paris. Perth. Une centaine de petites villes dont vous n'avez jamais entendu parler, et quelques-unes que vous connaissez. C'est le monde entier des voyageurs, cloué à des poteaux dans une petite ville du Nord — commencé par un jeune nostalgique avec un pinceau, et toujours grandissant, une ville natale à la fois.
 
 Apportez un panneau. Il y a de la place.
+
+Chaque panneau de la forêt pointe vers la maison, y compris vers un territoire qui n'existait pas quand le premier panneau a été planté en 1942. Le Nunavut s'est joint à la carte en 1999, et notre site sœur Tales of Canada raconte comment dans [Le jour où la carte du Canada a changé](https://talesofcanada.ca/fr/stories/the-day-canadas-map-changed/).

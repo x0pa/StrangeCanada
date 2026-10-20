@@ -62,3 +62,5 @@ It's the same secret the prairie giants keep: the statue gets you off the highwa
 Stand at the foot of the pedestal in the late light, when the lobster glows red against the harbour, and the statue reads exactly as it was meant to: not a joke, but a thank-you. A fishing town looked at the animal that fed it, clothed it, and put it on the map — and said, *that, but bigger.*
 
 Then it built a staircase, so you could climb up and say hello.
+
+Shediac's pride has deep roots, with a hard history underneath it. This coast is the heart of Acadie, and our sister site Tales of Canada tells the story of the people who were torn from it in [The Expulsion of the Acadians](https://talesofcanada.ca/stories/the-expulsion-of-the-acadians/).

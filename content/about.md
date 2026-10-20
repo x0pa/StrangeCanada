@@ -15,6 +15,10 @@ Most of these places were built by small towns, for small towns: a chamber of co
 - **Art, not scraped photos.** Our illustrations are drawn for this site in a vintage postcard style. We don't lift other people's travel photos.
 - **Hours are never guessed.** Where visiting details change with the seasons, we say so and point you to the town or attraction for the latest.
 
+## Our sister site
+
+Strange Canada catalogues the odd places. Our sister site [Tales of Canada](https://talesofcanada.ca/) tells the full stories behind places like them: long, sourced accounts of the events, disasters, inventions, and lives that shaped this country, each one published with its sources on the page. When one of our roadside stops leaves you wanting the whole story, that is where it lives.
+
 ## Who's behind it
 
 Strange Canada is researched, written, and published from Winnipeg, Manitoba, and is part of the Dark Haus Studio family of Canadian sites. Road trips are planned the proper way: a full tank, a paper map for backup, and a rule that you always, always stop for the giant thing.

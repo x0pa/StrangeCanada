@@ -62,3 +62,5 @@ Happy Rock n'est pas un long arrêt, et il n'essaie pas de l'être. C'est une ha
 Et voici le truc avec le sourire de Gladstone : ça fonctionne. Des conducteurs qui n'avaient jamais prévu de s'arrêter à Gladstone s'arrêtent, parce qu'un rocher qui fait signe est une invitation difficile à refuser. Les enfants qui oublieront chaque musée du voyage se souviennent du rocher. Les bingos et les soupers d'il y a trente ans continuent de rapporter, une voiture garée à la fois — ce qui est plus que ce que la plupart des stratégies touristiques au double du budget peuvent affirmer.
 
 Rendez-lui son salut en repartant. Tout le monde le fait. C'est exactement le but.
+
+Le sourire de Gladstone est un chapitre d'une province qui débat de sa propre histoire depuis avant même d'exister. Notre site sœur Tales of Canada raconte le chapitre fondateur au complet dans [La Résistance de la rivière Rouge](https://talesofcanada.ca/fr/stories/red-river-resistance/), l'histoire de Louis Riel, des Métis et du combat qui a fait du Manitoba une province.

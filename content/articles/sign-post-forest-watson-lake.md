@@ -72,3 +72,5 @@ There are grander monuments in this country, and older ones, and certainly tidie
 Stand in the middle of the Sign Post Forest at the height of a Yukon summer evening, when the light goes gold and just refuses to end, and read the boards. Paris. Perth. A hundred little towns you've never heard of and a few you have. It is the whole travelling world, nailed to posts in a small northern town — begun by a homesick kid with a paintbrush, and still growing, one hometown at a time.
 
 Bring a sign. There's room.
+
+Every sign in the forest points home, including to a territory that did not exist when the first sign went up in 1942. Nunavut joined the map in 1999, and our sister site Tales of Canada tells how in [The Day Canada's Map Changed](https://talesofcanada.ca/stories/the-day-canadas-map-changed/).

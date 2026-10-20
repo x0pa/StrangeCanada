@@ -62,3 +62,5 @@ C'est le même secret que gardent les géants des Prairies : la statue vous fait
 Tenez-vous au pied du socle dans la lumière du soir, quand le homard rougeoie contre le port, et la statue se lit exactement comme elle le devait : non pas comme une blague, mais comme un merci. Une ville de pêche a regardé l'animal qui l'avait nourrie, vêtue et mise sur la carte — et a dit : *ça, mais en plus gros.*
 
 Puis elle a construit un escalier, pour que vous puissiez monter dire bonjour.
+
+La fierté de Shediac a des racines profondes, avec une histoire dure en dessous. Cette côte est le cœur de l'Acadie, et notre site sœur Tales of Canada raconte l'histoire du peuple qui en a été arraché dans [L'expulsion des Acadiens](https://talesofcanada.ca/fr/stories/the-expulsion-of-the-acadians/).

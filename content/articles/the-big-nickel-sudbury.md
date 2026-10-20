@@ -66,3 +66,5 @@ Today the Big Nickel stands at Dynamic Earth, Science North's earth sciences cen
 Stand under the Big Nickel and look up, and then turn around and look out at the rock. The joke lands first — a coin the size of a building! — but the meaning lands second, and it stays. This is a monument to miners built in the shape of the thing they dug out of the earth, raised by a firefighter who believed a working city deserved a landmark as big as its story.
 
 Sixty years on, it is still the best five cents in Canada.
+
+Sudbury's coin honours a great Canadian making story that got its monument. Another one was cancelled in a single day. Our sister site Tales of Canada tells it in [The Day the Arrow Died](https://talesofcanada.ca/stories/the-day-the-arrow-died/), the story of the Avro Arrow and the morning Canada scrapped its most ambitious aircraft.
