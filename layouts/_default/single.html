@@ -105,6 +105,10 @@
         {{ end }}
       </div>
     </section>
+
+    {{ if eq .Section "articles" }}
+    {{ partial "ads/banner-leaderboard.html" . }}
+    {{ end }}
   </article>
 </main>
 {{ end }}

@@ -13,6 +13,8 @@
     </div>
   </section>
 
+  {{ partial "ads/banner-leaderboard.html" . }}
+
   <section class="cards" id="stories">
     {{ $tilts := slice "tilt-l" "tilt-r" "tilt-l2" }}
     {{ range $i, $p := first 3 ((where .Site.RegularPages "Section" "articles").ByDate.Reverse) }}
