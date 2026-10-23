@@ -1,27 +1,22 @@
 {{- /* Slot B (homepage, between the story cards and the postcard note):
-     728x90 on wide screens, the 300x250 rectangle on smaller screens. Same
-     DOM-injection pattern as ads/banner-leaderboard.html — the unchosen code
-     is never loaded. Verbatim copies: ads/banner-728x90.html and
+     MOBILE AND TABLET ONLY — the 300x250 rectangle below 1024px viewport
+     width; on desktop the slot renders nothing at all (Dade's call,
+     2026-10-23). The whole slot is also display:none at >=1024px via the
+     .ad-slot-b CSS rule, and the script only injects the code below 1024px,
+     so no ad request is ever made on desktop. Verbatim code copy:
      ads/banner-300x250.html. */ -}}
-<div class="ad-slot ad-banner">
+<div class="ad-slot ad-banner ad-slot-b">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
     <script data-cfasync="false">
     (function () {
-      var mount = document.currentScript.parentNode;
       var w = window.innerWidth || document.documentElement.clientWidth || 1024;
-      if (w >= 820) {
-        window.atOptions = { 'key': 'c1cc683e730bb4398df41bdf471ca743', 'format': 'iframe', 'height': 90, 'width': 728, 'params': {} };
-        var s = document.createElement('script');
-        s.async = false;
-        s.src = 'https://bauval.org/22/c1cc683e730bb4398df41bdf471ca743';
-        mount.appendChild(s);
-      } else {
-        var m = document.createElement('script');
-        m.type = 'text/javascript';
-        m.src = 'https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js';
-        mount.appendChild(m);
-      }
+      if (w >= 1024) { return; }
+      var mount = document.currentScript.parentNode;
+      var m = document.createElement('script');
+      m.type = 'text/javascript';
+      m.src = 'https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js';
+      mount.appendChild(m);
     })();
     </script>
   </div>
