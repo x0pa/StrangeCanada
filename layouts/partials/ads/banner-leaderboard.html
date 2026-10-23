@@ -1,23 +1,28 @@
-{{- /* Responsive leaderboard slot: exactly ONE size code is written into the page
-     at parse time, chosen by viewport width — 728x90 on wide screens, 468x60 on
-     small laptops/tablets, 320x50 on phones. The size codes themselves live
-     verbatim in ads/banner-728x90.html, ads/banner-468x60.html and
-     ads/banner-320x50.html. CSS show/hide is NOT used: Adsterra's atOptions
-     scripts execute even when hidden, and two live atOptions blocks race on the
-     shared global, so the unchosen sizes are never emitted at all. */ -}}
+{{- /* Responsive leaderboard slot: exactly ONE size code is loaded, chosen by
+     viewport width — 728x90 on wide screens, 468x60 mid-range, 320x50 on
+     phones. The codes are injected as DOM script elements by the inline script
+     below (never document.write, which Chrome can block on mobile, and never
+     CSS show/hide: Adsterra's atOptions scripts execute even when hidden, and
+     two live atOptions blocks race on the shared global, so the unchosen sizes
+     are never emitted at all). Verbatim code copies live in
+     ads/banner-728x90.html, ads/banner-468x60.html, ads/banner-320x50.html. */ -}}
 <div class="ad-slot ad-banner">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
     <script data-cfasync="false">
     (function () {
+      var mount = document.currentScript.parentNode;
       var w = window.innerWidth || document.documentElement.clientWidth || 1024;
-      function pair(key, width, height) {
-        document.write('<script>\n  atOptions = {\n    \'key\' : \'' + key + '\',\n    \'format\' : \'iframe\',\n    \'height\' : ' + height + ',\n    \'width\' : ' + width + ',\n    \'params\' : {}\n  };\n<\/script>\n');
-        document.write('<script src="https://bauval.org/22/' + key + '"><\/script>');
+      function load(key, width, height) {
+        window.atOptions = { 'key': key, 'format': 'iframe', 'height': height, 'width': width, 'params': {} };
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = 'https://bauval.org/22/' + key;
+        mount.appendChild(s);
       }
-      if (w >= 820) { pair('c1cc683e730bb4398df41bdf471ca743', 728, 90); }
-      else if (w >= 520) { pair('09b3b7d5444c8b533ff49bfd4b1a035e', 468, 60); }
-      else { pair('fd61506c13f968814ba4ff29cfba5d5e', 320, 50); }
+      if (w >= 820) { load('c1cc683e730bb4398df41bdf471ca743', 728, 90); }
+      else if (w >= 520) { load('09b3b7d5444c8b533ff49bfd4b1a035e', 468, 60); }
+      else { load('fd61506c13f968814ba4ff29cfba5d5e', 320, 50); }
     })();
     </script>
   </div>

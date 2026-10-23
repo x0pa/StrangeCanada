@@ -1,19 +1,26 @@
 {{- /* Slot B (homepage, between the story cards and the postcard note):
-     728x90 on wide screens, the 300x250 rectangle on smaller screens — one
-     code emitted at parse time, chosen by viewport width, same pattern as
-     ads/banner-leaderboard.html. The codes live verbatim in
-     ads/banner-728x90.html and ads/banner-300x250.html. */ -}}
+     728x90 on wide screens, the 300x250 rectangle on smaller screens. Same
+     DOM-injection pattern as ads/banner-leaderboard.html — the unchosen code
+     is never loaded. Verbatim copies: ads/banner-728x90.html and
+     ads/banner-300x250.html. */ -}}
 <div class="ad-slot ad-banner">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
     <script data-cfasync="false">
     (function () {
+      var mount = document.currentScript.parentNode;
       var w = window.innerWidth || document.documentElement.clientWidth || 1024;
       if (w >= 820) {
-        document.write('<script>\n  atOptions = {\n    \'key\' : \'c1cc683e730bb4398df41bdf471ca743\',\n    \'format\' : \'iframe\',\n    \'height\' : 90,\n    \'width\' : 728,\n    \'params\' : {}\n  };\n<\/script>\n');
-        document.write('<script src="https://bauval.org/22/c1cc683e730bb4398df41bdf471ca743"><\/script>');
+        window.atOptions = { 'key': 'c1cc683e730bb4398df41bdf471ca743', 'format': 'iframe', 'height': 90, 'width': 728, 'params': {} };
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = 'https://bauval.org/22/c1cc683e730bb4398df41bdf471ca743';
+        mount.appendChild(s);
       } else {
-        document.write('<script type="text/javascript" src="https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js"><\/script>');
+        var m = document.createElement('script');
+        m.type = 'text/javascript';
+        m.src = 'https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js';
+        mount.appendChild(m);
       }
     })();
     </script>
