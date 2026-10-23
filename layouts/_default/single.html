@@ -71,6 +71,10 @@
     </figure>
     {{ end }}
 
+    {{ if eq .Section "articles" }}
+    {{ partial "ads/slot-08-native.html" . }}
+    {{ end }}
+
     <section class="more-stops">
       <h2>{{ i18n "more_stops" }}</h2>
       <div class="cards">

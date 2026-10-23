@@ -111,6 +111,8 @@ img{display:block;max-width:100%}
 .gtk li{padding:.45rem 0 .45rem 1.4rem;position:relative;font-size:.99rem;color:#5c4633;border-bottom:1px dashed rgba(74,50,32,.25)}
 .gtk li:last-child{border-bottom:none}
 .gtk li::before{content:"»";position:absolute;left:.2rem;color:var(--rust);font-weight:800}
+.ad-slot{margin-top:3rem}
+.ad-label{font-family:"Nunito Sans",sans-serif;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;text-align:center;color:#8a7a5f;margin:0 0 .6rem}
 .more-stops{margin-top:3rem}
 .more-stops>h2{font-family:"Alfa Slab One",serif;font-weight:400;text-transform:uppercase;color:var(--brown);font-size:1.5rem}
 .more-stops .cards{margin-top:1.4rem;grid-template-columns:repeat(2,1fr);max-width:760px}

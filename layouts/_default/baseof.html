@@ -38,9 +38,9 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#B5502F">
-<link rel="stylesheet" href="{{ "fonts/fonts-local.css" | relURL }}?v=22">
-<link rel="stylesheet" href="{{ "fonts/fonts-extra.css" | relURL }}?v=22">
-<link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v=22">
+<link rel="stylesheet" href="{{ "fonts/fonts-local.css" | relURL }}?v=23">
+<link rel="stylesheet" href="{{ "fonts/fonts-extra.css" | relURL }}?v=23">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}?v=23">
 </head>
 <body>
 {{ $langTarget := "" }}{{ $langLabel := "" }}{{ range .Translations }}{{ $langTarget = .RelPermalink }}{{ $langLabel = .Language.LanguageName }}{{ end }}{{ if not $langTarget }}{{ range .Site.Sites }}{{ if ne .Language.Lang $.Lang }}{{ $langTarget = .Home.RelPermalink }}{{ $langLabel = .Language.LanguageName }}{{ end }}{{ end }}{{ end }}
