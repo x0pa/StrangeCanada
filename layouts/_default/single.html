@@ -37,8 +37,15 @@
     </figure>
     {{ end }}
 
+    {{ $body := .Content }}
+    {{ if eq .Section "articles" }}
+      {{ $chunks := split $body "<h2" }}
+      {{ if ge (len $chunks) 3 }}
+        {{ $body = printf "%s<h2%s%s<h2%s" (index $chunks 0) (index $chunks 1) (partial "ads/article-mid-mobile.html" .) (delimit (after 2 $chunks) "<h2") | safeHTML }}
+      {{ end }}
+    {{ end }}
     <div class="prose">
-      {{ .Content }}
+      {{ $body }}
     </div>
 
     {{ with .Params.goodtoknow }}
