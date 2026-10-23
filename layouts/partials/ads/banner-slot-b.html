@@ -1,9 +1,26 @@
 {{- /* Slot B (homepage, between the story cards and the postcard note):
-     the full 300x250 code placed directly in the page, exactly as supplied
-     (same code as ads/banner-300x250.html). Mobile and tablet only — the
-     .ad-slot-b CSS rule hides the whole slot at desktop widths (>=1024px),
-     so nothing shows there on desktop (Dade's call, 2026-10-23). */ -}}
-<div class="ad-slot ad-banner ad-slot-b">
+     BOTH codes placed directly in the page, exactly as supplied — the
+     728x90 pair in the desktop block (shown at 1024px and wider) and the
+     full 300x250 code in the mobile/tablet block (shown below 1024px);
+     CSS shows one block per screen size (.ad-slot-b-* rules in site.css).
+     Same codes as ads/banner-728x90.html and ads/banner-300x250.html.
+     Layout set by Dade, 2026-10-23. */ -}}
+<div class="ad-slot ad-banner ad-slot-b-desktop">
+  <p class="ad-label">{{ i18n "ad_label" }}</p>
+  <div class="ad-banner-mount">
+    <script>
+      atOptions = {
+        'key' : 'c1cc683e730bb4398df41bdf471ca743',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+    </script>
+    <script src="https://bauval.org/22/c1cc683e730bb4398df41bdf471ca743"></script>
+  </div>
+</div>
+<div class="ad-slot ad-banner ad-slot-b-mobile">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
     <script>

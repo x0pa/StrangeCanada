@@ -1,24 +1,8 @@
-{{- /* Slot A (homepage, below the hero): BOTH banner codes placed directly in
-     the page, exactly as supplied — the 728x90 pair in the desktop block and
-     the 320x50 pair in the mobile block; CSS shows one block per screen size
-     (.ad-slot-a-* rules in site.css; breakpoint 820px). The same codes are
-     stored in ads/banner-728x90.html and ads/banner-320x50.html.
-     Placed this way at Dade's direction, 2026-10-23. */ -}}
-<div class="ad-slot ad-banner ad-slot-a-desktop">
-  <p class="ad-label">{{ i18n "ad_label" }}</p>
-  <div class="ad-banner-mount">
-    <script>
-      atOptions = {
-        'key' : 'c1cc683e730bb4398df41bdf471ca743',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-      };
-    </script>
-    <script src="https://bauval.org/22/c1cc683e730bb4398df41bdf471ca743"></script>
-  </div>
-</div>
+{{- /* Slot A (homepage, below the hero): MOBILE ONLY — the 320x50 code placed
+     directly in the page, exactly as supplied (same code as
+     ads/banner-320x50.html). On desktop this slot shows nothing: Dade moved
+     the desktop 728x90 to Slot B on 2026-10-23. The .ad-slot-a-mobile CSS
+     rule shows this block only below 820px. */ -}}
 <div class="ad-slot ad-banner ad-slot-a-mobile">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
