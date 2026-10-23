@@ -44,6 +44,8 @@
         {{ $body = printf "%s<h2%s%s<h2%s" (index $chunks 0) (index $chunks 1) (partial "ads/article-mid-mobile.html" .) (delimit (after 2 $chunks) "<h2") | safeHTML }}
       {{ end }}
     {{ end }}
+    <div class="article-layout">
+    <div class="article-main">
     <div class="prose">
       {{ $body }}
     </div>
@@ -56,6 +58,12 @@
       </ul>
     </aside>
     {{ end }}
+
+    </div>
+    {{ if eq .Section "articles" }}
+    <aside class="article-rail"><div class="ad-sticky">{{ partial "ads/article-rail.html" . }}</div></aside>
+    {{ end }}
+    </div>
 
     {{ with .Params.faqs }}
     <section class="faq-block">

@@ -120,6 +120,13 @@ img{display:block;max-width:100%}
 @media (max-width:819px){.ad-slot-a-mobile{display:block}}
 .ad-mobile-only{display:none}
 @media (max-width:819px){.ad-mobile-only{display:block}}
+.article-rail{display:none}
+@media (min-width:1024px){
+  .article-layout{display:flex;gap:2.5rem;align-items:flex-start}
+  .article-main{flex:1 1 auto;min-width:0}
+  .article-rail{display:block;flex:0 0 160px;width:160px}
+  .article-rail .ad-sticky{position:sticky;top:24px}
+}
 @media (min-width:1024px){
   .menu-btn{display:none}
   .menu-panel{display:block;box-shadow:none;animation:none}
