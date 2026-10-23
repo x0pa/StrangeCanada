@@ -1,23 +1,11 @@
 {{- /* Slot B (homepage, between the story cards and the postcard note):
-     MOBILE AND TABLET ONLY — the 300x250 rectangle below 1024px viewport
-     width; on desktop the slot renders nothing at all (Dade's call,
-     2026-10-23). The whole slot is also display:none at >=1024px via the
-     .ad-slot-b CSS rule, and the script only injects the code below 1024px,
-     so no ad request is ever made on desktop. Verbatim code copy:
-     ads/banner-300x250.html. */ -}}
+     the 300x250 code placed directly in the page, exactly as supplied
+     (same code as ads/banner-300x250.html). Dade's call 2026-10-23: mobile
+     and tablet only — the .ad-slot-b CSS rule hides the whole slot at
+     desktop widths (>=1024px), so nothing shows there on desktop. */ -}}
 <div class="ad-slot ad-banner ad-slot-b">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
-    <script data-cfasync="false">
-    (function () {
-      var w = window.innerWidth || document.documentElement.clientWidth || 1024;
-      if (w >= 1024) { return; }
-      var mount = document.currentScript.parentNode;
-      var m = document.createElement('script');
-      m.type = 'text/javascript';
-      m.src = 'https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js';
-      mount.appendChild(m);
-    })();
-    </script>
+    <script type="text/javascript" src="https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js"></script>
   </div>
 </div>
