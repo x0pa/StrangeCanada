@@ -5,14 +5,19 @@
      CSS show/hide: Adsterra's atOptions scripts execute even when hidden, and
      two live atOptions blocks race on the shared global, so the unchosen sizes
      are never emitted at all). Verbatim code copies live in
-     ads/banner-728x90.html, ads/banner-468x60.html, ads/banner-320x50.html. */ -}}
-<div class="ad-slot ad-banner">
+     ads/banner-728x90.html, ads/banner-468x60.html, ads/banner-320x50.html.
+     Optional: call with (dict "page" . "minWidth" 820) to make the slot
+     desktop-only — below that width it renders nothing and loads nothing
+     (used for the homepage Slot A). */ -}}
+{{ $minW := 0 }}{{ if reflect.IsMap . }}{{ $minW = .minWidth }}{{ end }}
+<div class="ad-slot ad-banner{{ if gt $minW 0 }} ad-desktop-only{{ end }}">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
     <script data-cfasync="false">
     (function () {
       var mount = document.currentScript.parentNode;
       var w = window.innerWidth || document.documentElement.clientWidth || 1024;
+      if (w < {{ $minW }}) { return; }
       function load(key, width, height) {
         window.atOptions = { 'key': key, 'format': 'iframe', 'height': height, 'width': width, 'params': {} };
         var s = document.createElement('script');

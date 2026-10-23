@@ -13,7 +13,7 @@
     </div>
   </section>
 
-  {{ partial "ads/banner-leaderboard.html" . }}
+  {{ partial "ads/banner-leaderboard.html" (dict "page" . "minWidth" 820) }}
 
   <section class="cards" id="stories">
     {{ $tilts := slice "tilt-l" "tilt-r" "tilt-l2" }}
