@@ -124,7 +124,7 @@ img{display:block;max-width:100%}
 @media (min-width:1024px){
   .article-layout{display:flex;gap:2.5rem;align-items:flex-start}
   .article-main{flex:1 1 auto;min-width:0}
-  .article-rail{display:block;flex:0 0 160px;width:160px}
+  .article-rail{display:block;flex:0 0 160px;width:160px;align-self:stretch}
   .article-rail .ad-sticky{position:sticky;top:24px}
 }
 @media (min-width:1024px){
