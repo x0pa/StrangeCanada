@@ -1,11 +1,20 @@
 {{- /* Slot B (homepage, between the story cards and the postcard note):
-     the 300x250 code placed directly in the page, exactly as supplied
-     (same code as ads/banner-300x250.html). Dade's call 2026-10-23: mobile
-     and tablet only — the .ad-slot-b CSS rule hides the whole slot at
-     desktop widths (>=1024px), so nothing shows there on desktop. */ -}}
+     the full 300x250 code placed directly in the page, exactly as supplied
+     (same code as ads/banner-300x250.html). Mobile and tablet only — the
+     .ad-slot-b CSS rule hides the whole slot at desktop widths (>=1024px),
+     so nothing shows there on desktop (Dade's call, 2026-10-23). */ -}}
 <div class="ad-slot ad-banner ad-slot-b">
   <p class="ad-label">{{ i18n "ad_label" }}</p>
   <div class="ad-banner-mount">
-    <script type="text/javascript" src="https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js"></script>
+    <script>
+      atOptions = {
+        'key' : 'ae7ed303f84c9d654195063315a0849c',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    </script>
+    <script src="https://www.highrevenueformat.com/ae7ed303f84c9d654195063315a0849c/invoke.js"></script>
   </div>
 </div>
