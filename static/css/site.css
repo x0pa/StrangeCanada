@@ -117,6 +117,8 @@ img{display:block;max-width:100%}
 @media (max-width:819px){.ad-desktop-only{display:none}}
 .ad-slot-a-mobile{display:none}
 @media (max-width:819px){.ad-slot-a-desktop{display:none}.ad-slot-a-mobile{display:block}}
+.ad-mobile-only{display:none}
+@media (max-width:819px){.ad-mobile-only{display:block}}
 .ad-banner-mount iframe{border:0;display:block}
 .ad-label{font-family:"Nunito Sans",sans-serif;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;text-align:center;color:#8a7a5f;margin:0 0 .6rem}
 .more-stops{margin-top:3rem}

@@ -26,6 +26,10 @@
     </div>
     {{ end }}
 
+    {{ if eq .Section "articles" }}
+    {{ partial "ads/article-top-mobile.html" . }}
+    {{ end }}
+
     {{ with .Params.image }}
     <figure class="postcard post-hero">
       <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">
