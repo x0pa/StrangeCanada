@@ -13,8 +13,6 @@
     </div>
   </section>
 
-  {{ partial "ads/slot-a.html" . }}
-
   <section class="cards" id="stories">
     {{ $tilts := slice "tilt-l" "tilt-r" "tilt-l2" }}
     {{ range $i, $p := first 3 ((where .Site.RegularPages "Section" "articles").ByDate.Reverse) }}
@@ -27,8 +25,6 @@
     </article>
     {{ end }}
   </section>
-
-  {{ partial "ads/banner-slot-b.html" . }}
 
   <section class="postcard note-card">
     <p class="note-hand">{{ i18n "note_hand" }}</p>

@@ -26,10 +26,6 @@
     </div>
     {{ end }}
 
-    {{ if eq .Section "articles" }}
-    {{ partial "ads/article-top-mobile.html" . }}
-    {{ end }}
-
     {{ with .Params.image }}
     <figure class="postcard post-hero">
       <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">
@@ -37,17 +33,8 @@
     </figure>
     {{ end }}
 
-    {{ $body := .Content }}
-    {{ if eq .Section "articles" }}
-      {{ $chunks := split $body "<h2" }}
-      {{ if ge (len $chunks) 3 }}
-        {{ $body = printf "%s<h2%s%s<h2%s" (index $chunks 0) (index $chunks 1) (partial "ads/article-mid-mobile.html" .) (delimit (after 2 $chunks) "<h2") | safeHTML }}
-      {{ end }}
-    {{ end }}
-    <div class="article-layout">
-    <div class="article-main">
     <div class="prose">
-      {{ $body }}
+      {{ .Content }}
     </div>
 
     {{ with .Params.goodtoknow }}
@@ -58,12 +45,6 @@
       </ul>
     </aside>
     {{ end }}
-
-    </div>
-    {{ if eq .Section "articles" }}
-    <aside class="article-rail"><div class="ad-sticky">{{ partial "ads/article-rail.html" . }}</div></aside>
-    {{ end }}
-    </div>
 
     {{ with .Params.faqs }}
     <section class="faq-block">
@@ -88,10 +69,6 @@
         <span class="credit">{{ i18n "photo_by" }} {{ $.Params.real_photo_credit }}, <a href="{{ $.Params.real_photo_source }}" rel="noopener" target="_blank">{{ i18n "via_commons" }}</a>, {{ $.Params.real_photo_license }}.</span>
       </figcaption>
     </figure>
-    {{ end }}
-
-    {{ if eq .Section "articles" }}
-    {{ partial "ads/slot-08-native.html" . }}
     {{ end }}
 
     <section class="more-stops">
@@ -125,9 +102,6 @@
       </div>
     </section>
 
-    {{ if eq .Section "articles" }}
-    {{ partial "ads/banner-leaderboard.html" . }}
-    {{ end }}
   </article>
 </main>
 {{ end }}
