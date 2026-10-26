@@ -24,7 +24,7 @@ faqs:
 last_verified: 2026-10-26
 real_photo: "images/real-crooked-bush-hafford.webp"
 real_photo_alt: "Photographie d'un peuplier faux-tremble tordu dans le bosquet tordu près de Hafford, en Saskatchewan, son tronc blanc et ses branches se pliant de côté et vers le bas au-dessus de hautes herbes vertes"
-real_photo_credit: "Turgan Talk"
+real_photo_credit: "Turgan"
 real_photo_license: "CC BY-SA 3.0"
 real_photo_source: "https://commons.wikimedia.org/wiki/File:Twisted_aspen_tree_(Crooked_Bush,_Saskatchewan,_2008).jpg"
 ---

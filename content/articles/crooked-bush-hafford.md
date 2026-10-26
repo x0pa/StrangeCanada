@@ -24,7 +24,7 @@ faqs:
 last_verified: 2026-10-26
 real_photo: "images/real-crooked-bush-hafford.webp"
 real_photo_alt: "Photograph of a twisted aspen tree in the Crooked Bush near Hafford, Saskatchewan, its white trunk and branches bending sideways and downward over tall green grass"
-real_photo_credit: "Turgan Talk"
+real_photo_credit: "Turgan"
 real_photo_license: "CC BY-SA 3.0"
 real_photo_source: "https://commons.wikimedia.org/wiki/File:Twisted_aspen_tree_(Crooked_Bush,_Saskatchewan,_2008).jpg"
 ---
