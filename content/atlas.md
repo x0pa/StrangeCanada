@@ -17,6 +17,7 @@ Every pin is a real place you can drive to and stand in front of. Tap a pin for 
 - [Happy Rock](/articles/happy-rock-gladstone/) — Gladstone, Manitoba
 - [The World's Largest Curling Rock (town's claim)](/articles/worlds-largest-curling-rock-arborg/) — Arborg, Manitoba
 - [The Giant Mosquito (town's claim)](/articles/giant-mosquito-komarno/) — Komarno, Manitoba
+- [The Crooked Bush](/articles/crooked-bush-hafford/) — Hafford, Saskatchewan
 - [Falcon Lake UFO Site](/articles/falcon-lake-ufo/) — Whiteshell, Manitoba
 - [The Big Nickel](/articles/the-big-nickel-sudbury/) — Sudbury, Ontario
 - [Sign Post Forest](/articles/sign-post-forest-watson-lake/) — Watson Lake, Yukon

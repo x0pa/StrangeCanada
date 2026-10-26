@@ -17,6 +17,7 @@ Chaque épingle est un endroit réel où vous pouvez vous rendre en voiture et v
 - [Happy Rock](/fr/articles/happy-rock-gladstone/) — Gladstone, Manitoba
 - [La plus grande pierre de curling au monde (selon la ville)](/fr/articles/worlds-largest-curling-rock-arborg/) — Arborg, Manitoba
 - [Le moustique géant (selon la ville)](/fr/articles/giant-mosquito-komarno/) — Komarno, Manitoba
+- [Le bosquet tordu](/fr/articles/crooked-bush-hafford/) — Hafford, Saskatchewan
 - [Le site d'ovni du lac Falcon](/fr/articles/falcon-lake-ufo/) — Whiteshell, Manitoba
 - [Le Gros Nickel](/fr/articles/the-big-nickel-sudbury/) — Sudbury, Ontario
 - [La Forêt de panneaux](/fr/articles/sign-post-forest-watson-lake/) — Watson Lake, Yukon

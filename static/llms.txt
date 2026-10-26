@@ -23,6 +23,7 @@
 - [Happy Rock](https://strangecanada.ca/articles/happy-rock-gladstone/): Gladstone, Manitoba's grinning 36-foot rock (1993)
 - [The World's Largest Curling Rock](https://strangecanada.ca/articles/worlds-largest-curling-rock-arborg/): Arborg, Manitoba's giant curling rock (2005), 4.2 metres across, honouring its champion high school teams — the town's "world's largest" claim
 - [The Giant Mosquito of Komarno](https://strangecanada.ca/articles/giant-mosquito-komarno/): Komarno, Manitoba's giant mosquito (1986), 4.6 metres long and a working weathervane, honouring a community name that means lots of mosquitos — the town's "world's largest" claim
+- [The Crooked Bush of Hafford](https://strangecanada.ca/articles/crooked-bush-hafford/): Hafford, Saskatchewan's grove of twisted trembling aspens (first identified in the 1940s), about 3 acres of trees growing sideways and downward instead of straight, believed to be a genetic mutation, with a boardwalk through it
 - [Chasing Ghosts in BC's Interior](https://strangecanada.ca/articles/chasing-ghosts-in-bcs-interior/): the ghost towns of Sandon, Barkerville, and Phoenix, British Columbia
 
 ## En français
@@ -35,3 +36,4 @@ Strange Canada est aussi publié intégralement en français (pages réelles, pa
 - [À propos](https://strangecanada.ca/fr/about/) : ce qu'est Strange Canada et comment nous vérifions nos faits
 - [La plus grande pierre de curling au monde](https://strangecanada.ca/fr/articles/worlds-largest-curling-rock-arborg/) : la pierre de curling géante d'Arborg, au Manitoba (2005), 4,2 mètres de large, en l'honneur de ses équipes scolaires championnes — la revendication de la ville
 - [Le moustique géant de Komarno](https://strangecanada.ca/fr/articles/giant-mosquito-komarno/) : le moustique géant de Komarno, au Manitoba (1986), 4,6 mètres de long et girouette fonctionnelle, en l'honneur d'un nom de communauté qui veut dire plein de moustiques — la revendication de la ville
+- [Le bosquet tordu de Hafford](https://strangecanada.ca/fr/articles/crooked-bush-hafford/) : le bosquet de peupliers faux-trembles tordus de Hafford, en Saskatchewan (repéré dans les années 1940), environ 3 acres d'arbres qui poussent de côté et vers le bas plutôt que tout droit, attribués à une mutation génétique, avec une passerelle qui le traverse
