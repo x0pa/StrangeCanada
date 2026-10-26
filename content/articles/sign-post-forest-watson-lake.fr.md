@@ -8,7 +8,7 @@ image_alt: "Illustration de la Sign Post Forest à Watson Lake — de grands pot
 image_caption: "Chaque panneau pointe vers la maison. Tous en même temps."
 goodtoknow:
   - "La Sign Post Forest est un site extérieur situé juste sur la route de l'Alaska, à Watson Lake — gratuit à explorer, et à son meilleur quand on le parcourt lentement, à pied, dans la longue lumière nordique de l'été."
-  - "Vous pouvez vraiment ajouter votre propre panneau. Les voyageurs apportent des planches de chez eux ou en fabriquent une au centre d'information touristique, juste à côté de la forêt."
+  - "Vous pouvez vraiment ajouter votre propre panneau. Les voyageurs apportent des planches de chez eux ou en fabriquent une au centre d'information touristique, maintenant installé dans le Northern Lights Centre, juste à côté de la forêt."
   - "Prévoyez plus de temps que vous ne le pensez. Tout le monde dit vingt minutes; tout le monde reste une heure, à lire les noms de villes."
   - "La ville entretient la forêt et ajoute de nouveaux poteaux à mesure qu'elle grandit — votre panneau se joint à quelque chose dont on prend soin, pas à un fouillis libre. Apportez des vis, pas seulement des clous, si le vent du nord a son mot à dire."
 short_answer: "La Sign Post Forest est une collection extérieure de panneaux le long de la route de l'Alaska, à Watson Lake, au Yukon. Elle a commencé en 1942, quand le soldat américain nostalgique Carl K. Lindley a ajouté un panneau de Danville, en Illinois, à un poteau indicateur réparé. On estime aujourd'hui la collection à plus de 100 000 panneaux, et les voyageurs s'arrêtent pour flâner entre les poteaux et, s'ils le souhaitent, ajouter un panneau bien à eux."
@@ -20,8 +20,8 @@ faqs:
   - q: "Combien de panneaux compte la forêt?"
     a: "On estime aujourd'hui la collection à plus de 100 000 panneaux, mais il n'existe pas de compte exact, parce qu'elle grandit chaque été. Les panneaux comprennent des panneaux de villes, des plaques de rue, des plaques d'immatriculation et des planches peintes à la main venues du monde entier."
   - q: "Les voyageurs peuvent-ils ajouter leur propre panneau?"
-    a: "Oui. Les visiteurs peuvent apporter une planche de chez eux ou en fabriquer une au centre d'information touristique, juste à côté de la forêt, et la ville entretient les poteaux à mesure que la collection grandit."
-last_verified: 2026-10-17
+    a: "Oui. Les visiteurs peuvent apporter une planche de chez eux ou en fabriquer une au centre d'information touristique, maintenant installé dans le Northern Lights Centre, juste à côté de la forêt, et la ville entretient les poteaux à mesure que la collection grandit."
+last_verified: 2026-10-26
 real_photo: "images/real-sign-post-forest-watson-lake.webp"
 real_photo_alt: "Photographie de la Sign Post Forest à Watson Lake, au Yukon, des centaines de panneaux de villes et de plaques d'immatriculation cloués à des poteaux de bois sous un ciel bleu"
 real_photo_credit: "Adam Jones, Ph.D."
@@ -57,7 +57,7 @@ C'est, quand on prend le temps d'y penser, un monument bâti entièrement de lie
 
 ## Vous pouvez toujours ajouter le vôtre
 
-Voici le meilleur : la forêt n'est pas terminée, et elle n'est pas censée l'être. Les visiteurs sont toujours les bienvenus pour ajouter un panneau bien à eux, et beaucoup le font — certains planifient tout leur voyage sur la route de l'Alaska autour de la planche qui roule à l'arrière du camion. Le centre d'information touristique, juste à côté de la forêt, peut vous aider à en fabriquer un sur place.
+Voici le meilleur : la forêt n'est pas terminée, et elle n'est pas censée l'être. Les visiteurs sont toujours les bienvenus pour ajouter un panneau bien à eux, et beaucoup le font — certains planifient tout leur voyage sur la route de l'Alaska autour de la planche qui roule à l'arrière du camion. Le centre d'information touristique, maintenant installé dans le Northern Lights Centre, juste à côté de la forêt, peut vous aider à en fabriquer un sur place.
 
 Il y a des monuments plus grandioses dans ce pays, de plus anciens, et certainement de plus ordonnés. Mais il n'existe peut-être aucun autre endroit au Canada où l'exposition, ce sont les visiteurs — plus de quatre-vingts ans de voyageurs, chacun laissant une petite phrase de bois qui dit la même chose :
 

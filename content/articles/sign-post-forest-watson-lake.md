@@ -8,7 +8,7 @@ image_alt: "Illustration of the Sign Post Forest in Watson Lake — tall posts c
 image_caption: "Every board points home. All of them at once."
 goodtoknow:
   - "The Sign Post Forest is an outdoor site right on the Alaska Highway in Watson Lake — free to wander, and at its best taken slowly, on foot, in summer's long northern light."
-  - "You really can add your own sign. Travellers bring boards from home or make one at the visitor information centre beside the forest."
+  - "You really can add your own sign. Travellers bring boards from home or make one at the visitor information centre, now in the Northern Lights Centre right beside the forest."
   - "Leave yourself more time than you think. Everybody says twenty minutes; everybody stays an hour, reading hometowns."
   - "The town maintains the forest and adds new posts as it grows — your sign joins something cared for, not a free-for-all. Bring screws, not just nails, if the north wind has a say."
 short_answer: "The Sign Post Forest is an outdoor collection of signs along the Alaska Highway in Watson Lake, Yukon. It began in 1942 when homesick American soldier Carl K. Lindley added a Danville, Illinois board to a repaired signpost. Estimates now put the collection past 100,000 signs, and travellers stop to wander the posts and, if they wish, add a sign of their own."
@@ -20,8 +20,8 @@ faqs:
   - q: "How many signs are in the forest?"
     a: "Estimates now put the collection past 100,000 signs, but there is no exact count because it grows every summer. The signs include town boards, street signs, licence plates, and hand-painted boards from around the world."
   - q: "Can travellers add their own sign?"
-    a: "Yes. Visitors can bring a board from home or make one at the visitor information centre beside the forest, and the town maintains the posts as the collection grows."
-last_verified: 2026-10-17
+    a: "Yes. Visitors can bring a board from home or make one at the visitor information centre, now in the Northern Lights Centre beside the forest, and the town maintains the posts as the collection grows."
+last_verified: 2026-10-26
 real_photo: "images/real-sign-post-forest-watson-lake.webp"
 real_photo_alt: "Photograph of the Sign Post Forest in Watson Lake, Yukon, hundreds of town signs and licence plates nailed to wooden posts under a blue sky"
 real_photo_credit: "Adam Jones, Ph.D."
@@ -57,7 +57,7 @@ It is, when you stop and think about it, a monument built entirely out of missin
 
 ## You Can Still Add Yours
 
-Here is the best part: the forest is not finished, and it isn't meant to be. Visitors are still welcome to add a sign of their own, and many do — some plan their whole Alaska Highway drive around the board riding in the back of the truck. The visitor information centre beside the forest can help you make one on the spot.
+Here is the best part: the forest is not finished, and it isn't meant to be. Visitors are still welcome to add a sign of their own, and many do — some plan their whole Alaska Highway drive around the board riding in the back of the truck. The visitor information centre — now in the Northern Lights Centre, right beside the forest — can help you make one on the spot.
 
 There are grander monuments in this country, and older ones, and certainly tidier ones. But there may be no other place in Canada where the exhibit is the visitors — eighty-some years of travellers, each leaving a small wooden sentence that says the same thing:
 
