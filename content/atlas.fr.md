@@ -13,6 +13,7 @@ Chaque épingle est un endroit réel où vous pouvez vous rendre en voiture et v
 - [Phoenix — la ville qui fut démantelée](/fr/articles/chasing-ghosts-in-bcs-interior/) — Colombie-Britannique
 - [Le pérogý géant](/fr/articles/the-giant-perogy-of-glendon/) — Glendon, Alberta
 - [La piste d'atterrissage pour ovnis](/fr/articles/the-ufo-landing-pad-of-st-paul/) — St. Paul, Alberta
+- [La plus grande pysanka au monde (selon la ville)](/fr/articles/worlds-largest-pysanka-vegreville/) — Vegreville, Alberta
 - [Mac l'orignal](/fr/articles/mac-the-moose/) — Moose Jaw, Saskatchewan
 - [Happy Rock](/fr/articles/happy-rock-gladstone/) — Gladstone, Manitoba
 - [La plus grande pierre de curling au monde (selon la ville)](/fr/articles/worlds-largest-curling-rock-arborg/) — Arborg, Manitoba
