@@ -170,3 +170,14 @@ img{display:block;max-width:100%}
 .designed-by{font-size:.88rem;color:#7A6A55;margin:.15rem 0 0}
 .designed-by a{color:#B5502F;text-decoration:none}
 .designed-by a:hover{text-decoration:underline}
+
+/* share buttons */
+.share-row{display:flex;align-items:center;gap:.55rem;margin:1.6rem 0 .4rem;flex-wrap:wrap}
+.share-label{font-family:"Rokkitt",serif;font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--rust)}
+.share-btn{width:42px;height:42px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;background:var(--paper-light);border:1px solid rgba(74,50,32,.35);flex:none;box-shadow:2px 3px 0 rgba(74,50,32,.45);transition:transform .15s ease}
+.share-btn:hover{transform:translateY(-2px)}
+.share-btn svg{width:19px;height:19px;fill:currentColor}
+.share-fb{color:var(--teal)}
+.share-pin{color:var(--rust)}
+.share-x{color:var(--ink)}
+.share-th{color:var(--brown)}
